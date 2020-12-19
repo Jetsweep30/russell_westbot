@@ -1,0 +1,3345 @@
+Film,Rating,Year
+Alamar,3.0,2010
+Animal Kingdom,3.5,2010
+Babies,3.0,2010
+Barry Munday,3.5,2010
+Creation,3.0,2010
+Date Night,3.25,2010
+Defendor,2.75,2010
+Edge Of Darkness,3.0,2010
+From Paris With Love,2.75,2010
+Green Zone,4.0,2010
+Greenberg,3.0,2010
+Harry Brown,2.75,2010
+Harry Potter & The Deathly Hallows Pt 1,2.5,2010
+Hugh Hefner: Playboy Activist and Rebel,2.75,2010
+I Am Love,3.5,2010
+Inception,4.0,2010
+IronMan 2,2.75,2010
+Knight And Day,3.25,2010
+Let Me In,3.0,2010
+Mesrine: Killer Instinct,3.5,2010
+Mesrine: Public Enemy No 1,3.0,2010
+Morning Glory,3.25,2010
+My Name Is Khan,2.75,2010
+Ondine,3.5,2010
+Please Give,3.0,2010
+Red Riding Trilogy 1974,3.5,2010
+Red Riding Trilogy 1980,3.5,2010
+Red Riding Trilogy 1983,3.25,2010
+Salt,2.5,2010
+Scott Pilgrim Vs. The World,3.75,2010
+Solitary Man,3.5,2010
+The American,3.0,2010
+The Book Of Eli,3.0,2010
+The Extra Man,2.75,2010
+The Ghostwriter,3.75,2010
+The Girl On The Train,3.5,2010
+The Girl Who Kicked The Hornet's Nest,2.75,2010
+The Girl Who Played With Fire,3.0,2010
+The Girl With The Dragon Tattoo,3.0,2010
+The Kids Are All Right,3.5,2010
+The Killer Inside Me,3.25,2010
+The Next 3 Days,2.75,2010
+The Runaways,3.5,2010
+The Social Network,3.75,2010
+The Tourist,2.0,2010
+The Town,3.25,2010
+Unstoppable,3.75,2010
+Unthinkable,3.25,2010
+Welcome,3.5,2010
+Winters Bone,4.0,2010
+You Will Meet A Tall Dark Stranger,3.0,2010
+500 Days Of Summer,3.5,2009
+A Prophet,4.0,2009
+Adam,3.25,2009
+Adoration,3.5,2009
+Afghan Star,3.25,2009
+Amelia,2.25,2009
+An Education,4.0,2009
+Anvil The Story Of Anvil,3.0,2009
+Away We Go,3.25,2009
+Bad Lieutenant: Port Of Call New Orleans,3.0,2009
+Broken Embraces,3.5,2009
+Cheri,3.25,2009
+Coco Before Chanel,3.0,2009
+Crazy Heart,3.5,2009
+Departures,4.0,2009
+Duplicity,3.5,2009
+Eldorado,2.75,2009
+Everlasting Moments,3.75,2009
+Every Little Step,3.0,2009
+Everybody's Fine,2.25,2009
+Flam And Citron,3.25,2009
+"Food, Inc",3.25,2009
+For My Father,3.25,2009
+Gomorrah,3.5,2009
+Goodbye Solo,4.0,2009
+Harry Potter and The Half Blood Prince,3.25,2009
+In The Loop,3.75,2009
+Inglorious Basterds,4.0,2009
+Invictus,3.5,2009
+Islander,3.0,2009
+It Might Get Loud,3.0,2009
+Julia,3.75,2009
+Julie & Julia,2.75,2009
+Knowing,2.75,2009
+Lake Tahoe,2.0,2009
+Me And Orson Welles,3.75,2009
+Men Who Stare At Goats,2.75,2009
+Mine,3.0,2009
+Moon,3.25,2009
+Munyurangabo,3.0,2009
+"New York, I Love You",2.75,2009
+Nine,2.0,2009
+Nobel Son,2.5,2009
+Nothing But The Truth,2.25,2009
+Paul Blart: Mall Cop,1.0,2009
+Pirate Radio,3.0,2009
+Public Enemies,3.25,2009
+Rudo y Cursi,3.0,2009
+Sin Nombre,4.0,2009
+Sita Sings The  Blues,3.75,2009
+Somers Town,3.0,2009
+Soul Power,2.5,2009
+Special,2.5,2009
+Star Trek,3.0,2009
+State Of Play,3.5,2009
+Sugar,3.5,2009
+Summer Hours,3.0,2009
+Sunshine Cleaning,3.0,2009
+Taken,3.0,2009
+Taking Woodstock,4.0,2009
+The Blind Side,3.25,2009
+The Brothers Bloom,3.25,2009
+The Damn United,3.5,2009
+The Drummer,3.0,2009
+The Great Buck Howard,3.0,2009
+The Hurt Locker,4.0,2009
+The Informant,3.75,2009
+The International,3.25,2009
+The Limits Of Control,3.0,2009
+The Maiden Heist,2.25,2009
+The Merry Gentleman,3.0,2009
+The Messenger,3.5,2009
+The Road,3.5,2009
+The Secret Of Their Eyes,4.0,2009
+The Taking Of Pelham 123,2.75,2009
+This Is It,3.0,2009
+three monkeys,2.0,2009
+Trucker,3.0,2009
+Tulpan,3.5,2009
+Up,4.0,2009
+Up In The Air,3.75,2009
+Wendy And Lucy,3.5,2009
+Whatever Works,3.5,2009
+Whip It,3.25,2009
+Zombieland,3.25,2009
+21,3.0,2008
+A Girl Cut In Two,2.75,2008
+Appaloosa,3.5,2008
+"Be Kind, Rewind",3.5,2008
+Before The Rains,2.75,2008
+Bottle Shock,3.0,2008
+Burn After Reading,3.0,2008
+Cadillac Records,3.5,2008
+Chop Shop,3.5,2008
+City Of Men,2.75,2008
+Control,3.0,2008
+Days And Clouds,3.25,2008
+"Definitely, Maybe",3.0,2008
+Eagle Eye,2.5,2008
+Encounters At The End Of The World,3.5,2008
+Finding Amanda,2.75,2008
+Flash Of Genius,3.0,2008
+Flawless,2.75,2008
+Forgetting Sarah Marshall,3.25,2008
+Frost/Nixon,3.75,2008
+Frozen River,3.75,2008
+Goya's Ghosts,2.25,2008
+Gran Torino,3.75,2008
+Hamlet 2,3.25,2008
+Honeydripper,3.75,2008
+In A Day,3.25,2008
+In Bruges,3.5,2008
+Indiana Jones And The Kingdom Of The Crystal Skull,3.0,2008
+Irina Palm,3.25,2008
+Iron Man,3.25,2008
+I've Loved You So Long,3.5,2008
+Leatherheads,3.0,2008
+Let The Right One In,3.75,2008
+Mamma Mia,1.75,2008
+Man  On Wire,3.5,2008
+Married Life,3.0,2008
+Milk,3.75,2008
+Miracle At St Anna,3.0,2008
+Mrs Pettigrew Lives For A Day,3.0,2008
+My Blueberry Nights,3.5,2008
+My Winnipeg,2.5,2008
+Outsourced,2.75,2008
+Persepolis,3.5,2008
+Pete Seeger: The Power of Song,3.5,2008
+Pineapple Express,3.25,2008
+Priceless,2.75,2008
+Quantum Of Solace,2.0,2008
+Rachel Getting Married,3.5,2008
+Redbelt,3.0,2008
+Righteous Kill,2.5,2008
+RockNRolla,3.25,2008
+Roman Polanski: Wanted And Desired,3.25,2008
+Shine A Light,3.75,2008
+Slumdog Millionaire,4.0,2008
+Smart People,2.5,2008
+Son Of Rambow,3.0,2008
+SOP,3.25,2008
+Soul Men,2.25,2008
+Surfwise,3.5,2008
+Tell No One,4.0,2008
+Th4e Last Lear,3.25,2008
+The Band's Visit,3.5,2008
+The Bank Job,3.0,2008
+The Counterfetiers,3.25,2008
+The Dark Knight,3.75,2008
+The Edge Of Heaven,3.75,2008
+The Fall,3.5,2008
+The Grocer's Son,3.0,2008
+The Life Before Her Eyes,1.75,2008
+The Lucky Ones,3.0,2008
+The Nines,3.0,2008
+The Other Boleyn Girl,2.5,2008
+The Pope's Toilet,3.0,2008
+The Reader,3.75,2008
+The Secret Life Of Bees,3.25,2008
+The Trap,3.0,2008
+The Visitor,4.0,2008
+The Wackness,2.0,2008
+The Wrestler,3.75,2008
+Toots,2.75,2008
+Towelhead,1.25,2008
+Traitor,3.25,2008
+Transsiberian,2.75,2008
+Tropic Thunder,3.5,2008
+Trumbo,2.75,2008
+Under The Bombs,3.25,2008
+Vantage Point,2.75,2008
+Vicki Christina Barcelona,3.75,2008
+W.,3.5,2008
+Wall-E,3.75,2008
+"War, Inc.",2.5,2008
+Zach And Miri Make A Porno,3.5,2008
+12:08 East Of Bucharest,3.25,2007
+3:10 To Yuma,3.25,2007
+A Mighty Heart,3.25,2007
+Adam's Apples,3.25,2007
+Amazing Grace,3.25,2007
+Amazing Journey: The Story Of The Who,2.5,2007
+American Gangster,3.5,2007
+Angel-A,2.5,2007
+Arranged,3.75,2007
+Atonement,4.0,2007
+August Rush,3.0,2007
+Away From Her,3.75,2007
+Before The Devil Knows You're Dead,3.5,2007
+Black Book,3.5,2007
+Blame It On Fidel,3.5,2007
+Breach,4.0,2007
+Casandra's Dream,3.0,2007
+Charlie Wilson's War,3.75,2007
+Color Me Kubrick,3.25,2007
+Death At A Funeral,2.5,2007
+Delerious,3.25,2007
+Diggers,3.0,2007
+Eastern Promises,3.75,2007
+Elizabeth: The Golden Age,3.0,2007
+Enchanted,3.0,2007
+Factory Girl,2.5,2007
+Fay Grim,3.5,2007
+Feast Of Love,2.5,2007
+First Snow,2.5,2007
+Fracture,3.25,2007
+Fraulein,3.0,2007
+Gone Baby Gone,3.75,2007
+Harry Potter And The Order Of The Phoenix,3.25,2007
+Helvetica,3.0,2007
+Her Name Is Sabine,3.0,2007
+Hoax,2.75,2007
+Hot Fuzz,3.0,2007
+I'm Not There,3.5,2007
+In The Land Of Women,3.0,2007
+In The Valley Of Elah,3.5,2007
+Into The Wild,4.0,2007
+Juno,3.75,2007
+La Vie en Rose,4.0,2007
+Le Grande Final,3.0,2007
+Lights In he Dusk,2.75,2007
+Live Free Or Die Hard,3.0,2007
+Margot At The Wedding,3.0,2007
+Michael Clayton,3.75,2007
+Music And Lyrics,3.5,2007
+My Best Friend,3.0,2007
+Namastay London,3.25,2007
+No Country For Old Men,3.75,2007
+No reservations,3.0,2007
+Noise,3.0,2007
+Ocean's 13,3.0,2007
+Offside,3.25,2007
+Once,3.5,2007
+Paprika,3.5,2007
+Paris je t'aime,3.75,2007
+Perfume,2.25,2007
+Pierrepoint The Last Hangman,3.75,2007
+Pirates Of The Caribbean: At World's End,2.5,2007
+Ratatouille,3.75,2007
+Red Road,3.25,2007
+Rescue Dawn,3.5,2007
+Shooter,2.75,2007
+Shrek The Third,3.5,2007
+Sicko,3.0,2007
+Snowcake,2.75,2007
+Spiderman 3,3.25,2007
+Stardust,3.0,2007
+Starting Out In The Evening,3.25,2007
+Sunshine,2.5,2007
+Sweeney Todd,3.0,2007
+Talk To Me,3.5,2007
+The Assassination Of Jesse Jame By The Coward Robert Ford,3.5,2007
+The Astronaut Farmer,3.0,2007
+The Boss Of It All,3.0,2007
+The Bothersome Man,2.75,2007
+The Bourne Ultimatum,3.75,2007
+The Bow,3.5,2007
+The Brave One,2.75,2007
+The Bridge,3.25,2007
+The Comedy Of Power,3.0,2007
+The Darjeeling Limited,2.75,2007
+The Hunting Party,3.0,2007
+The Jane Austen Book Club,2.75,2007
+The Kingdom,3.25,2007
+The Lookout,3.75,2007
+The Namesake,3.5,2007
+The Nanny Diaries,2.75,2007
+The Valet,3.0,2007
+The Walker,3.5,2007
+The Way I Spent The End Of The World,3.25,2007
+The Wind That Shakes The Barley,3.25,2007
+The Year Of The Dog,2.75,2007
+There Will Be Blood,3.75,2007
+Things We Lost In The Fire,3.0,2007
+This is England,3.25,2007
+Viva Cuba,3.5,2007
+Waitress,3.0,2007
+You Kill Me,3.25,2007
+Zodiac,3.5,2007
+10 Items Or Less,3.75,2006
+16 Blocks,3.25,2006
+49 Up,3.75,2006
+A Good Year,2.5,2006
+A Guide To Recognizing Your Saints,2.75,2006
+A Prarie Home Companion,4.0,2006
+A Scanner Darkly,3.0,2006
+A Simple Curve,3.25,2006
+After The Wedding,3.75,2006
+Akkelah And The Bee,3.5,2006
+American Dreamz,3.25,2006
+American Gun,3.0,2006
+Art School Confidential,2.75,2006
+Ask The Dust,3.0,2006
+Babel,3.25,2006
+Beowulf & Grendel,2.25,2006
+Billy Wilder Speaks,3.0,2006
+Blood Diamond,3.5,2006
+Borat,2.25,2006
+Brick,3.5,2006
+Bubble,3.5,2006
+Cache,3.75,2006
+Casino Royale,3.5,2006
+Changing Times,3.25,2006
+Children Of Men,4.0,2006
+Clean,3.5,2006
+Clerks 2,3.25,2006
+Conversations With Other Women,3.5,2006
+Copying Beethoven,2.75,2006
+Day Break,3.25,2006
+Days Of Glory,3.5,2006
+Dead Man's Shoes,2.75,2006
+Death Of A President,2.5,2006
+dï¿½jï¿½ vu,3.25,2006
+Don't Come Knocking,3.0,2006
+Duck Season,3.25,2006
+Edmond,3.0,2006
+Familia,3.25,2006
+Fast Food Nation,3.25,2006
+Film Geek,3.5,2006
+Find Me Guilty,2.5,2006
+Firewall,2.75,2006
+Flags Of Our Fathers,4.0,2006
+For Your Consideration,3.0,2006
+Free Zone,2.25,2006
+Friends With Money,2.75,2006
+half nelson,3.75,2006
+Hard Candy,3.25,2006
+Heading South,2.75,2006
+Hollywoodland,2.5,2006
+Idiocracy,2.25,2006
+Infamous,3.75,2006
+Inland Empire,2.0,2006
+Inside Man,3.5,2006
+Joyeaux Noel,3.5,2006
+Kinky Boots,2.5,2006
+Lady Vengeance,2.75,2006
+Le Petit Lieutenant,3.0,2006
+l'enfant,4.0,2006
+Leonard Cohen I'm Your Man,2.5,2006
+Letters From Iwo Jima,3.75,2006
+Little Miss Sunshine,3.75,2006
+Lonesome Jim,2.5,2006
+Looking For Comedy In The Muslim World,2.25,2006
+Lucky Number Slevin,3.0,2006
+Man Push Cart,3.5,2006
+Marie Antoinette,3.25,2006
+Men At Work,2.75,2006
+Miami Vice,2.25,2006
+Mission Impossible 3,3.0,2006
+Mongolian Ping Pong,3.0,2006
+Monster Thursday,3.0,2006
+My Sister Maria,2.75,2006
+My Super Ex-Girlfriend,2.25,2006
+Neil Young: Heart Of Gold,3.25,2006
+Notes On A Scandal,4.0,2006
+Old Joy,3.5,2006
+Oscar Shorts,3.0,2006
+Pans's Labyrinth,4.0,2006
+Pirates Of The Caribean,2.5,2006
+Quinceanera,3.25,2006
+Riding Alone For Thousands Of Miles,3.0,2006
+Running With Scissors,3.5,2006
+Scoop,2.75,2006
+Shadowboxer,2.75,2006
+SherryBaby,3.0,2006
+Shortbus,1.5,2006
+Shut Up And Sing,3.0,2006
+Sketches Of Frank Gehry,3.0,2006
+Something New,3.75,2006
+Stranger Than Fiction,3.5,2006
+Tales Of The Rat Fink,2.5,2006
+Talladega Nights,2.25,2006
+Thank You For Smoking,3.75,2006
+The Aura,3.5,2006
+The Black Dahlia,2.25,2006
+The Curse Of The Golden Flower,2.5,2006
+The Dead Girl,325.0,2006
+The Departed,4.0,2006
+The Devil Wears Prada,3.25,2006
+The Fountain,2.5,2006
+The Good German,2.5,2006
+The Heart Of The Game,3.75,2006
+The Hidden Blade,3.5,2006
+The Illusionist,3.5,2006
+The King,3.0,2006
+The Last King Of Scotland,3.5,2006
+The Lives Of Others,4.0,2006
+The Matador,3.75,2006
+The Notorious Bettie Page,3.5,2006
+The Oh in Oho,3.25,2006
+The Prestige,4.0,2006
+The Proposition,3.75,2006
+The Queen,4.0,2006
+The Sciece Of Sleep,2.75,2006
+The Sentinel,2.75,2006
+The Three Burials Of Melquiades Estrada,4.0,2006
+The World's Fastest Indian,3.25,2006
+This Picture Is Not Yet Rated,2.5,2006
+time to leave,3.0,2006
+Tristram Shandy,2.75,2006
+United 93,4.0,2006
+Unknown White Male,1.5,2006
+V For Vendetta,3.75,2006
+Venus,3.75,2006
+Volver,3.5,2006
+Wah-Wah,3.25,2006
+Water,3.75,2006
+Who's Camus Anyway?,2.25,2006
+Winter Passing,3.5,2006
+WordPlay,3.5,2006
+Xmen 3,2.75,2006
+2046,3.5,2005
+3 Iron,3.0,2005
+5X2,2.0,2005
+9 Songs,1.0,2005
+A History Of Violence,3.75,2005
+A League Of Ordinary Gentleman,3.5,2005
+Aaltra,2.5,2005
+Agata And The Storm,3.0,2005
+Alexandra's Project,3.0,2005
+An Unfinished Life,3.25,2005
+Antares,3.0,2005
+Anytown. USA,3.25,2005
+Around The Bend,2.5,2005
+Batman Begins,4.0,2005
+Beautiful Country,3.5,2005
+Breakfast On Pluto,2.75,2005
+Brokeback Mountain,4.0,2005
+Broken Flowers,3.5,2005
+Brothers,3.25,2005
+Campfire,3.25,2005
+Capote,3.5,2005
+Casanova,2.75,2005
+Crash,2.5,2005
+Dear Frankie,3.75,2005
+Domino,1.5,2005
+Dot The I,3.5,2005
+Downfall,3.5,2005
+Duma,3.75,2005
+El Crimen Perfecto,2.75,2005
+Elizabethtown,2.25,2005
+Enron The Smartest Guys In The Room,2.75,2005
+Everything Is Illuminated,3.25,2005
+Flightplan,3.0,2005
+Good Night And Good Luck,3.75,2005
+Grizzly Man,3.75,2005
+Gunner Palace,3.0,2005
+Harry Potter & The Goblet Of Fire,3.75,2005
+Havoc,3.25,2005
+Heights,3.25,2005
+Howl's Moving Castle,3.75,2005
+In Good Company,2.75,2005
+In Her Shoes,3.5,2005
+Inside Deep Throat,3.0,2005
+Jarhead,3.0,2005
+Junebug,3.5,2005
+Keane,2.75,2005
+King Kong,3.5,2005
+King Of The Corner,2.5,2005
+Kiss Kiss Bang Bang,3.0,2005
+Kontroll,2.5,2005
+Last Days,2.0,2005
+Layer Cake,3.75,2005
+Le Grand Voyage,3.0,2005
+Lila Says,3.0,2005
+Look At Me,3.25,2005
+Lord Of War,3.0,2005
+March Of the Penguins,3.0,2005
+Match Point,4.0,2005
+McLibel,3.0,2005
+Me & You & Everyone We Know,3.25,2005
+Melinda & Melinda,3.75,2005
+Memoirs Of A Geisha,2.75,2005
+Memories Of Murder,3.75,2005
+Memory Of A Killer,3.5,2005
+Millions,3.5,2005
+"Milwaukee, Minnesota",3.25,2005
+Mondovino,2.25,2005
+Mr. And Mrs Smith,3.0,2005
+Mrs. Henderson Presents,3.5,2005
+Munich,3.75,2005
+Murderball,4.0,2005
+My Summer Of Love,3.25,2005
+Mysterious Skin,3.75,2005
+Nathalie,3.25,2005
+Nine Lives,3.75,2005
+November,2.75,2005
+Off The Map,3.0,2005
+Oldboy,2.25,2005
+Oliver Twist,3.5,2005
+Paradise Now,3.0,2005
+Pretty Persuasion,2.75,2005
+Pride & Prejudice,3.5,2005
+Prime,2.5,2005
+Proof,3.25,2005
+Pure,3.0,2005
+Reel Paradise,2.75,2005
+Revenge Of The Sith,3.0,2005
+Rumour Has It,3.0,2005
+Saint Ralph,3.0,2005
+Sarah Silverman: Jesus Is Magic,2.5,2005
+Saving Face,2.75,2005
+Schizo,3.0,2005
+Schultze Gets The Blues,3.0,2005
+Separate Lies,3.75,2005
+Serenity,3.5,2005
+Shopgirl,3.75,2005
+Sin City,3.0,2005
+Spare Parts,3.25,2005
+Sympathy For Mr. Vengeance,2.75,2005
+Syriana,3.75,2005
+Tell Them Who You Are,3.75,2005
+The Aristocrats,3.0,2005
+The Ballad Of Jack And Rose,3.0,2005
+The Beat That My Heart Skipped,3.25,2005
+The Boys And Girl From County Clare,2.5,2005
+The Brothers Grimm,3.25,2005
+The Constant Gardener,4.0,2005
+The Cutting Edge,3.0,2005
+The Dying Gaul,2.5,2005
+The Edukators,3.5,2005
+The Family Stone,3.5,2005
+The Forest For The Trees,3.25,2005
+The Girl In The Cafï¿½,3.25,2005
+The Great Raid,3.5,2005
+The Hitchhiker's Guide To The Galaxy,2.0,2005
+The Holy Girl,2.25,2005
+The Ice Harvest,2.0,2005
+The Interpreter,3.0,2005
+The Island,3.0,2005
+The Last Mogul: Lew Wasserman,2.5,2005
+The Ninth Day,3.5,2005
+"The Prizewinner of Defiance, Ohio",3.75,2005
+The Squid & The Whale,3.5,2005
+The Talent Given Us,2.25,2005
+The Tunnel,3.75,2005
+The Upside Of Anger,2.75,2005
+The Weatherman,2.5,2005
+The White Countess,3.5,2005
+The White Diamond,3.0,2005
+Thumbsucker,3.25,2005
+Transamerica,3.5,2005
+Turtles Can Fly,3.25,2005
+Up & Down,3.25,2005
+Walk On Water,3.75,2005
+Walk The Line,3.75,2005
+Wallace & Gromit The Curse Of The Were-Rabbit,3.5,2005
+Watermarks,2.5,2005
+Wheel Of Time,2.5,2005
+Where The Truth Lies,3.25,2005
+Wilby Wonderful,3.25,2005
+Winter Solstice,3.0,2005
+13 Going on 30,2.5,2004
+2 Brothers & A Bride,2.75,2004
+A Home At The End Of The World,3.5,2004
+A Slipping Doen Life,2.5,2004
+A Very Long Engagement,3.25,2004
+After The Sunset,2.5,2004
+Anchorman,1.0,2004
+Bad Education,3.75,2004
+Badasss,3.5,2004
+Before Sunset,3.75,2004
+Being Julia,3.5,2004
+Beyond The Sea,1.5,2004
+Bon Voyage,3.5,2004
+Bright Leaves,3.25,2004
+Bright Young Things,3.25,2004
+Broken Wings,3.5,2004
+Buddy,3.5,2004
+Bus 174,2.5,2004
+Carandiru,3.75,2004
+Carol's Journey,3.0,2004
+Cellular,3.25,2004
+Chisholm '72,2.5,2004
+Closer,3.5,2004
+Code 46,3.0,2004
+Coffee And Cigarettes,3.5,2004
+Colateral,3.5,2004
+Control Room,3.5,2004
+Criminal,2.75,2004
+Crimson Gold,3.5,2004
+Danny Deckchair,3.0,2004
+De-Lovely,3.75,2004
+Dogville,2.75,2004
+Eternal Sunshine Of The Spotless Mind,4.0,2004
+Eurotrip,1.5,2004
+Everyday People,3.0,2004
+Facing Windows,3.5,2004
+Farenheit 9/11,3.5,2004
+Festival Express,3.5,2004
+Finding Neverland,3.0,2004
+Game Over Kasparove and the Machine,2.5,2004
+Garden State,3.5,2004
+Ghost In The Shell 2: Innocence,3.25,2004
+Goodbye Lenin,3.0,2004
+Grand Theft Parsons,2.5,2004
+Harry Potter And The Prisoner Of Azkaban,4.0,2004
+Head In The Clouds,3.25,2004
+Hellboy,3.0,2004
+Hotel Rwanda,3.5,2004
+House Of Flying Daggers,3.5,2004
+I'll Sleep When I'm Dead,2.75,2004
+I'm Not Scared,3.5,2004
+Intermission,3.25,2004
+Intimate Strangers,3.25,2004
+Japanese Story,3.5,2004
+Jerrsey Girl,2.25,2004
+Kill Bill Vol 2,3.75,2004
+King Arthur,2.25,2004
+Kinsey,3.5,2004
+Kitchen Stories,3.25,2004
+Lost Boys Of Sudan,2.75,2004
+Man On Fire,2.5,2004
+Maria Full Of Grace,3.5,2004
+Mean Creek,3.25,2004
+Mean Girls,3.0,2004
+Metallica: Some Kind Of Monster,3.0,2004
+Million Dollar Baby,4.0,2004
+Monsieur Ibrahim,3.75,2004
+Moolaade,3.5,2004
+Morlang,3.0,2004
+My Architect,2.25,2004
+Napolean Dynamite,2.25,2004
+Nicotina,2.0,2004
+Noi,3.25,2004
+Notre Musique,1.0,2004
+Oceans' 12,3.0,2004
+Open Water,3.0,2004
+Osama,3.0,2004
+P.S.,3.0,2004
+Primer,3.0,2004
+Ray,3.25,2004
+Riding Giants,3.25,2004
+Ripley's Game,3.5,2004
+Saved,3.5,2004
+Secret Things,2.5,2004
+Seducing Dr. Lewis,2.75,2004
+Shaolin Soccer,2.75,2004
+She Hate Me,2.5,2004
+Shrek 2,3.5,2004
+Sideways,4.0,2004
+Silver City,3.0,2004
+Since Otar Left,3.25,2004
+Sky Captain And The World Of Tomorrow,3.0,2004
+Spanglish,3.0,2004
+Spartan,3.0,2004
+Spiderman 2,2.75,2004
+"Spring,Summer,Fall,Winter,ï¿½ Spring",3.5,2004
+Springtime In A Small Town,2.75,2004
+Stage Beauty,3.5,2004
+Stander,3.0,2004
+Story Of The Weeping Camel,3.5,2004
+Strayed,3.25,2004
+Tarnation,2.5,2004
+The Agronomist,3.25,2004
+The Assassination Of Richard Nixon,3.25,2004
+The Aviator,3.75,2004
+The Big Bounce,2.25,2004
+The Bourne Supremacy,3.5,2004
+The Clearing,3.0,2004
+The Day After Tomorrow,2.75,2004
+The Dreamers,3.5,2004
+The Five Obstructions,3.25,2004
+The Incredibles,4.0,2004
+The Ladykillers,2.75,2004
+The Last Shot,3.5,2004
+The Life Aquatic W/ Steve Zissou,2.75,2004
+The Machinist,3.25,2004
+The Manchurian Candidate,2.5,2004
+The Mayor Of Sunset Strip,3.25,2004
+The Middle Of The World,2.5,2004
+The Motorcycle Diaries,3.25,2004
+The Notebook,3.0,2004
+The Rage In Placid Lake,3.0,2004
+The Reckoning,2.75,2004
+The Republic Of Love,2.75,2004
+The Return,3.5,2004
+The Saddest Music In The World,3.25,2004
+The Snow Walker,2.75,2004
+The Terminal,3.5,2004
+The Twilight Samurai,3.5,2004
+The United States Of Leland,3.0,2004
+The Woodsman,3.5,2004
+The Yes Men,2.5,2004
+This So-Called Disaster,2.75,2004
+Tiptoes,2.25,2004
+Tokyo Godfathers,3.25,2004
+Touch Of Pnk,3.0,2004
+Touching The Void,3.75,2004
+Twentrynine Palms,1.75,2004
+Vera Drake,4.0,2004
+Waking The Dead,2.5,2004
+When Will I Be Loved,2.5,2004
+Wilbur Wants To Kill Himself,3.25,2004
+Wimbledon,3.0,2004
+Wolves In The Snow,3.25,2004
+Word Wars,3.0,2004
+Young Adam,2.5,2004
+Zhou Yu's Train,2.0,2004
+21 grams,3.75,2003
+28 Days Later,3.25,2003
+A Decade Under The Influence,3.75,2003
+A Mighty Wind,3.75,2003
+A Peck On The Cheek,3.25,2003
+A Problem With Fear,3.0,2003
+All The Real Girls,3.25,2003
+American Splendor,3.5,2003
+And Now Ladies And Gentlemen,3.0,2003
+Anything Else,3.0,2003
+Assassination Tango,3.0,2003
+Bad Santa,3.25,2003
+Bend It Like Beckham,3.0,2003
+Better Luck Tomorrow,3.75,2003
+Big Fish,3.0,2003
+"Blind Spot, Hitler's Secretary",3.25,2003
+Blue Car,3.75,2003
+Bubba Ho-Tep,3.25,2003
+Buffalo Soldiers,2.75,2003
+Calendar Girls,3.25,2003
+Capturing The Friedmans,3.5,2003
+Casa De Los Babys,3.5,2003
+Chaos,3.5,2003
+Cinemania,3.0,2003
+City Of Ghosts,3.5,2003
+City Of God,4.0,2003
+Cold Mountain,3.5,2003
+Confessions Of A Dangerous Mind,3.75,2003
+Crime Spree,2.75,2003
+Dirty Pretty Things,4.0,2003
+Divine Intervention,2.25,2003
+Dopamine,3.0,2003
+Down With Love,3.25,2003
+Dracula Pages From A Virgin's Diary,3.5,2003
+Dummy,3.5,2003
+"Easy Riders, Raging Bulls",3.0,2003
+Elephant,3.25,2003
+Elf,2.5,2003
+Fellini: I'm A Born Liar,2.25,2003
+Finding Nemo,3.5,2003
+Freaky Friday,3.5,2003
+Friday Night,2.25,2003
+Garafe Days,3.0,2003
+Gerry,2.75,2003
+Ginger And Cinnamon,3.0,2003
+Girl With A Pearl Earring,3.75,2003
+"He Loves Me, He Loves Me Not",3.25,2003
+Hollywood Homicide,2.25,2003
+Hop,3.0,2003
+House Of Fools,3.5,2003
+House Of Sand And Fog,4.0,2003
+I Capture The Castle,2.75,2003
+Identity,2.75,2003
+In America,4.0,2003
+In The Cut,1.0,2003
+In This World,3.5,2003
+Intacto,3.5,2003
+Intolerable Cruelty,3.5,2003
+Irreversible,2.75,2003
+It Runs In The Family,2.25,2003
+Jet Lag,2.25,2003
+Kal Ho Naa Ho,3.0,2003
+Kill Bill Vol 1,3.5,2003
+l'Auberge Espagnole,2.5,2003
+Laurel Canyon,2.0,2003
+Lawless Heart,3.25,2003
+Le Divorce,2.0,2003
+Levity,2.25,2003
+Lilya 4Ever,3.0,2003
+"Long Life, Prosperity and Happiness",2.5,2003
+Looney Tunes: Back In Action,3.25,2003
+Los Angeles Plays Itself,3.25,2003
+Lost In La Mancha,3.0,2003
+Lost In Translation,3.5,2003
+LOTR: Return Of The King,4.0,2003
+Love Actually,2.5,2003
+Love The Hard Way,3.0,2003
+"Love, Liza",1.5,2003
+"Lucia, Lucia",2.5,2003
+Man On A Train,3.75,2003
+Manito,3.5,2003
+Marion Bridge,3.5,2003
+Marooned In Iraq,3.0,2003
+Master & Commander: The Far Side Of The World,4.0,2003
+Matchstick Men,3.0,2003
+Max,3.5,2003
+Millennium Actress,3.5,2003
+Mona Lisa Smile,3.0,2003
+Mondays In The Sun,2.5,2003
+Monster,4.0,2003
+Morvern Callar,2.75,2003
+My Life Without Me,2.25,2003
+Mystic River,4.0,2003
+No Good Deed,3.0,2003
+Northfork,3.0,2003
+Once Upon A Time In The Midlands,3.25,2003
+Open Range,3.0,2003
+Oscar Shorts,3.0,2003
+OT: Our Town,3.75,2003
+Out Of Time,3.0,2003
+Owning Mahowny,3.5,2003
+People I Know,3.0,2003
+Peter Pan,2.75,2003
+Phone Booth,3.5,2003
+Pieces Of April,3.0,2003
+Pirates Of The Caribbean,3.0,2003
+Prey For Rock And Roll,3.0,2003
+Raising Victor Vargas,3.25,2003
+Red White And Blonde,2.0,2003
+Respiro,2.25,2003
+Rivers And Tides,3.5,2003
+Russian Ark,2.0,2003
+School Of Rock,3.75,2003
+Seabiscuit,3.5,2003
+Shattered Glass,3.75,2003
+Showtime,2.5,2003
+Sister Helen,3.0,2003
+Something's Gotta Give,3.0,2003
+Step Into Liquid,2.25,2003
+Stone Reader,3.0,2003
+Sweet Sixteen,3.25,2003
+Swimming Pool,3.25,2003
+Taking Sides,3.25,2003
+Ten,2.75,2003
+Terminator 3,2.5,2003
+The Barbarian Invasions,3.25,2003
+The Bread My Sweet,2.25,2003
+The Company,3.0,2003
+The Cooler,3.75,2003
+The Core,3.5,2003
+The Cuckoo,3.5,2003
+The Dancer Upstairs,3.25,2003
+The Event,1.5,2003
+The Flower Of Evil,3.25,2003
+The Fog Of War,3.75,2003
+The Good Thief,3.25,2003
+The Guru,2.5,2003
+The Guys,3.0,2003
+The Hard Word,2.75,2003
+The Heart Of Me,2.75,2003
+The Housekeeper,3.5,2003
+The Hulk,3.0,2003
+The Human Stain,3.0,2003
+The Hunted,2.75,2003
+The Italian Job,3.0,2003
+The Last Samurai,2.5,2003
+The Magdalene Sisters,3.5,2003
+The Matrix Reloaded,2.5,2003
+The Matrix Revolutions,3.0,2003
+The Party's Over,2.25,2003
+The Recruit,2.75,2003
+The Sea,3.0,2003
+The Secret Lives Of Dentists,3.5,2003
+The Shape Of Things,3.0,2003
+The Singing Detective,3.0,2003
+The Son,3.75,2003
+The Statement,2.5,2003
+The Station Agent,3.75,2003
+The Triplets Of Belleville,4.0,2003
+The Weather Underground,3.25,2003
+thirteen,3.5,2003
+To Be And To Have,3.5,2003
+Together,3.5,2003
+Under The Tuscan Sun,3.0,2003
+Uptown Girls,2.75,2003
+Veronica Guerin,3.0,2003
+Whale Rider,3.75,2003
+Xmen 2,2.75,2003
+XX/XY,3.25,2003
+101 Reykjavik,3.25,2002
+13 Conversations About One Thing,3.5,2002
+24 Hour Party People,4.0,2002
+8 Women,2.75,2002
+9 Queens,3.25,2002
+About A Boy,3.25,2002
+About Schmidt,4.0,2002
+Adaptation,3.75,2002
+All Or Nothing,3.75,2002
+Antwone Fisher,3.5,2002
+Ararat,2.75,2002
+Attack of The Clones,2.75,2002
+Austin Powers Goldmember,2.75,2002
+Auto Focus,3.25,2002
+Baran,3.5,2002
+Blood Work,3.25,2002
+Bloody Sunday,3.5,2002
+Blue Vinyl,2.5,2002
+Bollywood/Hollywood,3.0,2002
+Bowling For Columbine,3.5,2002
+Catch Me If You Can,3.5,2002
+Cherish,2.75,2002
+Chicago,4.0,2002
+Comedian,3.0,2002
+Das Experiment,3.25,2002
+Daughter From Danang,3.0,2002
+Devil's Playground,2.75,2002
+Diamond Men,3.5,2002
+Die Another Day,3.25,2002
+Divine Secrets of Ya Ya Sisterhood,2.5,2002
+Dogtown and Z-Boys,2.75,2002
+El Crimen Del Padre Amaro,3.25,2002
+Eloge de Amour,2.0,2002
+Enigma,3.0,2002
+Enlightenment Guarenteed,3.25,2002
+Far From Heaven,3.75,2002
+Femme Fatale,3.75,2002
+Festival In Cannes,3.0,2002
+Four Feathers,2.75,2002
+Frailty,3.25,2002
+Frida,3.5,2002
+Gangs Of New York,3.0,2002
+Happy Accidents,3.0,2002
+Harry Potter & The Chamber Of Secrets,3.25,2002
+Hart's War,3.0,2002
+Harvard Man,2.75,2002
+Heaven,3.25,2002
+Hero,3.5,2002
+High Crimes,3.0,2002
+Hollywood Ending,3.25,2002
+Home Movie,3.0,2002
+How To Draw A Bunny,2.25,2002
+Human Nature,3.0,2002
+Hysterical Blindness,3.5,2002
+Ice Age,3.5,2002
+Insomnia,3.75,2002
+Interview With The Assassin,3.0,2002
+Invincible,2.5,2002
+Italian For Beginners,3.5,2002
+Lantana,3.5,2002
+Last Orders,3.75,2002
+Late Marriage,3.25,2002
+Light Of My Eyes,3.0,2002
+Lilo and Stitch,3.5,2002
+LOTR The Two Towers,4.0,2002
+Lovely and Amazing,3.25,2002
+Mad Love,2.25,2002
+Maid In Manhattan,3.0,2002
+Man Without A Past,3.25,2002
+Men With Brooms,2.5,2002
+Minority Report,3.5,2002
+Monsoon Wedding,3.5,2002
+Mostly Martha,2.5,2002
+Murderous Maids,3.0,2002
+My Big Fat Greek Wedding,3.5,2002
+My Wife Is An Actress,3.0,2002
+Naqoyqatsi,1.75,2002
+Narc,3.5,2002
+Nowhere In Africa,3.5,2002
+Nuevo Cinema Paradiso,3.5,2002
+One Hour Photo,3.25,2002
+Oscar Shorts,3.5,2002
+Personal Velocity,3.75,2002
+Possesion,3.5,2002
+Punch-Drunk Love,3.0,2002
+Rabbit-Proof Fence,3.5,2002
+Rare Birds,1.5,2002
+Read My Lips,3.5,2002
+Real Women Have Curves,3.5,2002
+Revolution #9,3.25,2002
+Roger Dodger,3.5,2002
+Saathiya,3.0,2002
+Satin Rouge,3.5,2002
+Searching For Debra Winger,3.0,2002
+Secret Ballot,3.25,2002
+Secretary,3.5,2002
+Sex and Lucia,3.25,2002
+Signs,3.0,2002
+Simone,2.25,2002
+Skins,3.25,2002
+Solaris,2.5,2002
+Spellbound,4.0,2002
+Spiderman,3.5,2002
+Spirit,3.25,2002
+Spirited Away,4.0,2002
+Standing In The Shadows Of Motown,3.0,2002
+Star Trek Nemesis,2.5,2002
+Storytelling,3.25,2002
+Sunshine State,4.0,2002
+Tadpole,3.0,2002
+Take Care Of My Cat,3.0,2002
+Talk To Her,4.0,2002
+The 25th Hour,3.25,2002
+The Banger Sisters,2.75,2002
+The Believer,4.0,2002
+The Bourne Identity,3.25,2002
+The Cat's Meow,3.0,2002
+The Count Of Monte Cristo,3.25,2002
+The Crocodile Hunter,2.25,2002
+The Dangerous Lives Of Altar Boys,2.75,2002
+The Emperor's Club,2.5,2002
+The Emperor's New Clothes,2.5,2002
+The Fast Runner,3.25,2002
+The Good Girl,3.5,2002
+The Grey Zone,3.75,2002
+The Hours,3.75,2002
+The Importance of Being Earnest,3.0,2002
+The Kid Stays In The Picture,3.25,2002
+The Lady And The Duke,3.25,2002
+The Man From Elysian Fields,3.5,2002
+The Mystic Masseur,3.25,2002
+The Pianist,4.0,2002
+The Piano Teacher,3.25,2002
+The Quiet American,3.75,2002
+The Road To Perdition,3.5,2002
+The Sweetest Thing,1.5,2002
+The Truth About Charlie,2.75,2002
+The Way Home,3.0,2002
+Time Out,3.5,2002
+To End All Wars,2.75,2002
+Trembling Before G-d,2.0,2002
+Triumph Of Love,3.25,2002
+Wasabi,2.5,2002
+Welcome To Collinwood,2.75,2002
+What Time is it There?,1.5,2002
+Who Is Cletis Tout?,3.0,2002
+Winged Migration,3.5,2002
+Y Tu Mama Tambien,3.5,2002
+Zus & Zoe,3.0,2002
+A Beautiful Mind,3.75,2001
+A.I.,2.75,2001
+Amelie,3.75,2001
+America's Sweethearts,2.75,2001
+Amores Perros,3.75,2001
+Bandits,2.5,2001
+Behind The Sun,2.5,2001
+Blow,3.0,2001
+Bread and Roses,3.25,2001
+Bread and Tulips,3.75,2001
+Bridget Jones's Diary,3.0,2001
+Cats and Dogs,2.25,2001
+Dil Chahta Hai,2.75,2001
+Dinner Rush,3.5,2001
+Donnie Darko,3.0,2001
+Double Whammy,2.75,2001
+Elling,3.0,2001
+Enemy at The Gates,3.0,2001
+Evolution,2.0,2001
+Fat Girl,2.5,2001
+Focus,2.75,2001
+Ghost World,3.25,2001
+Gosford Park,4.0,2001
+Greenfingers,2.75,2001
+Harry Potter and the Sorceror's Stone,3.5,2001
+he died with a felafel in his hands,2.75,2001
+Heartbreakers,2.0,2001
+Hearts In Atlantis,2.25,2001
+Hedwig and the Angry Inch,3.75,2001
+Heist,3.75,2001
+In The Bedroom,3.25,2001
+In The Mood For Love,3.75,2001
+Innocence,3.75,2001
+Iris,2.75,2001
+Iron Ladies,2.25,2001
+Jay And Silent Bob Strike Back,2.75,2001
+Julie Johnson,2.5,2001
+Jurrasic Park III,2.5,2001
+Just Visiting,2.0,2001
+Kandahar,2.75,2001
+Keep The River On Your Right,3.0,2001
+K-Pax,2.75,2001
+Kwik Stop,3.0,2001
+Lagaan,3.25,2001
+Lake Boat,2.0,2001
+Left Luggage,2.75,2001
+Legally Blond,2.75,2001
+Life As a House,3.0,2001
+Lost and Delirious,2.75,2001
+LOTR The Fellowship of The Ring,4.0,2001
+Made,3.0,2001
+Memento,4.0,2001
+Monster's Ball,3.75,2001
+Monsters Inc.,3.5,2001
+Moulin Rouge ,1.75,2001
+Mulholland Drive,3.5,2001
+My First Mister,3.0,2001
+No Man's Land,3.5,2001
+Novocaine,3.5,2001
+Oceans' 11,3.0,2001
+One Night At McCools,2.5,2001
+Oscar Shorts,3.5,2001
+Pauline and Paulette,2.75,2001
+"Series 7,  The Contenders ",3.25,2001
+Sexy Beast,3.75,2001
+Shrek,4.0,2001
+Snatch,3.0,2001
+Son Of The Bride,3.75,2001
+Songcatcher,3.25,2001
+Songs From The Seconf Floor,2.25,2001
+Spy Game,3.0,2001
+Stanley Kubrick: A Life In Pictures,3.5,2001
+Startup.com,3.5,2001
+Swordfish,2.5,2001
+Tape,3.0,2001
+The Business of Strangers,3.0,2001
+The Caveman's Valentine,3.0,2001
+The Center of the World,3.25,2001
+The Chateau,2.75,2001
+The Claim,3.5,2001
+The Crimson Rivers,3.25,2001
+The Curse of the Jade Scorpion,3.5,2001
+The Day I Became A Woman,3.25,2001
+The Deep End,3.75,2001
+The Dish,3.5,2001
+The Endurance,3.25,2001
+The Gift,3.0,2001
+The Gleaners and I,3.5,2001
+The King Is Alive,2.75,2001
+The Last Castle,3.25,2001
+The Legend Of Rita,3.25,2001
+The Luzhin Defence,2.75,2001
+The Majestic,3.0,2001
+The Man Who Cried,2.5,2001
+The Man Who Wasn't There,3.25,2001
+The Mexican,2.0,2001
+The Pledge,3.75,2001
+The Price Of Milk,1.5,2001
+The Princess and The Warrior,3.25,2001
+The Road Home,3.75,2001
+The Royal Tennenbaums,3.0,2001
+The Score,3.0,2001
+The Shipping News,2.5,2001
+The Son's Room,3.25,2001
+The Tailor of Panama,3.0,2001
+The Taste of Others,3.5,2001
+Thw Widow Of St. Pierre,3.5,2001
+Together,3.25,2001
+Tortilla Soup,3.0,2001
+Training Day,3.0,2001
+Under The Sand,2.5,2001
+Under The Sun,3.25,2001
+Va Savior,3.5,2001
+Vanilla Sky,2.75,2001
+Waking Life,2.75,2001
+With a Friend Like Harry,2.5,2001
+World Traveler,2.25,2001
+Yana's Friends,3.0,2001
+A Time for Drunken Horses,3.0,2000
+Almost Famous,4.0,2000
+American Movie,3.0,2000
+An Everlasting Piece,2.75,2000
+Any Given Sunday,2.5,2000
+Bait,3.0,2000
+Bedazzled,2.5,2000
+Before Night Falls,2.75,2000
+Best In Show,3.75,2000
+Billy Eliot,3.5,2000
+Boiler Room,3.0,2000
+Cast Away,3.5,2000
+Catfish In Black Bean Sauce,2.75,2000
+Charlie's Angels,1.5,2000
+Chicken Run,3.5,2000
+Chocolat,2.5,2000
+Chuck And Buck,2.75,2000
+"Crouching Tiger, Hidden Dragon",4.0,2000
+Croupier,3.5,2000
+Deterrence,3.0,2000
+Dr. T and the Women,3.75,2000
+East/West,3.75,2000
+Erin Brockovich,3.0,2000
+Finding Forrestor,3.25,2000
+Frequency,3.0,2000
+George Washington,3.75,2000
+Ghost Dog,3.0,2000
+Girl On The Bridge,3.5,2000
+Girlfight,3.25,2000
+Gladiator,2.75,2000
+Gone in 60 Seconds,2.5,2000
+Gun Shy,2.5,2000
+Hamlet,2.5,2000
+High Fidelity,3.75,2000
+Holy Smoke,2.5,2000
+Human Resources,3.5,2000
+Jesus' Son,3.25,2000
+Joe Gould's Secret,3.25,2000
+L'Humanite,2.75,2000
+Maelstrom,2.25,2000
+"Me, Myself, I",3.0,2000
+Meet the Parents,3.0,2000
+Merci Pour Le Chocolat,3.25,2000
+Miss Congeniality,2.75,2000
+Mr. Death,3.0,2000
+Nurse Betty,2.5,2000
+"O, Brother Where Art Thou",3.0,2000
+On the Ropes,3.5,2000
+Panic,2.75,2000
+Pay it Forward,2.5,2000
+Place Vendome,3.5,2000
+Pollock,3.5,2000
+Requiem for a Dream,3.75,2000
+Return to Me,3.0,2000
+Rocky & Bulwinkle,3.0,2000
+Rules of Engagement,3.0,2000
+Saving Grace,2.5,2000
+Shadow of the Vampire,3.25,2000
+Shanghai Noon,3.0,2000
+Shower,3.0,2000
+Small Time Crooks,3.5,2000
+Space Cowboys,3.25,2000
+Stardom,2.75,2000
+State and Main,3.75,2000
+The Cell,2.5,2000
+The Color of Paradise,3.0,2000
+The Contender,3.5,2000
+The Emperor's New Groove,3.25,2000
+The Eyes of Tammy Faye,3.5,2000
+The Filth And The Fury,3.0,2000
+The Legend Of Bagger Vance,2.5,2000
+The Terrorist,3.5,2000
+The Tic Code,2.5,2000
+The Whole Nine Yards,2.5,2000
+The Yards,3.25,2000
+Things you can tell just by looking at her,2.75,2000
+Tigerland,3.25,2000
+Timecode,2.5,2000
+Traffic,4.0,2000
+Trixie,2.5,2000
+Two Family House,3.5,2000
+U-571,2.75,2000
+Unbreakable,3.0,2000
+Where the Money Is,3.0,2000
+Wonder Boys,3.75,2000
+X-Men,2.5,2000
+You Can Count on Me,4.0,2000
+10 Things I Hate About You,2.5,1999
+42 Up,3.5,1999
+A Map of the World,3.25,1999
+Affliction,4.0,1999
+After Life,3.75,1999
+All About My Mother,3.75,1999
+American Beauty,4.0,1999
+Among Giants,3.25,1999
+An Ideal Husband,3.75,1999
+Analyze This,3.0,1999
+At First Sight,2.5,1999
+Austin Powers II,3.0,1999
+Being John Malkovich,4.0,1999
+Big Daddy,1.5,1999
+Blast From the Past,2.5,1999
+Bowfinger,3.0,1999
+Boys Don't Cry,4.0,1999
+Bringing Out the Dead,3.5,1999
+Children of Heaven,3.0,1999
+Cookies Fortune,4.0,1999
+Cradle Will Rock,3.5,1999
+Dick,3.25,1999
+Dogma,3.75,1999
+Drop Dead Gorgeous,2.75,1999
+East Is East,3.0,1999
+EDTV,2.5,1999
+Election,3.75,1999
+Entrapment,3.25,1999
+Existenz,3.0,1999
+Felicia's Journey,3.25,1999
+Fight Club,3.0,1999
+Forces of Nature,1.5,1999
+Free Enterprise,3.0,1999
+Galaxy Quest,3.5,1999
+Genghis Blues,3.5,1999
+Get Bruce,2.5,1999
+God Said Ha,3.25,1999
+Happy Texas,3.5,1999
+Hideous Kinky,2.5,1999
+Limbo,3.5,1999
+"Lock, Stock & 2 Smoking Barrels",3.25,1999
+Lovers of the Artic Circle,3.0,1999
+Magnolia,4.0,1999
+Man on the Moon,3.75,1999
+Mumford,3.5,1999
+My Best Fiend,3.25,1999
+My Son The Fanatic,3.25,1999
+Mystery Men,2.5,1999
+Notting Hill,3.0,1999
+October Sky,3.0,1999
+Office Space,2.5,1999
+One Day in September,2.75,1999
+Payback,2.5,1999
+Perfect Blue,3.25,1999
+Pushing Tin,3.0,1999
+Random Hearts,2.25,1999
+Ride With The Devil,2.25,1999
+"Run, Lola Run",3.25,1999
+Runaway Bride,2.5,1999
+Rushmore,3.25,1999
+Simply Irresistable,2.0,1999
+SLC Punk,3.0,1999
+Sleepy Hollow,2.5,1999
+Still Crazy,3.0,1999
+Summer of Sam,3.25,1999
+Sweet And Lowdown,3.25,1999
+Te Talented Mr. Ripley,3.25,1999
+The 24 Hour Woman,3.25,1999
+The Adventures of Sebastian Cole,3.0,1999
+The Blair Witch Project,2.0,1999
+The Brandon Teena Story,3.0,1999
+The Cider House Rules,2.0,1999
+The Dinner Game,3.5,1999
+The Dreamlife of Angels,3.25,1999
+The General,3.5,1999
+The Green Mile,3.5,1999
+The Insider,3.5,1999
+The Iron Giant,3.5,1999
+The Limey,3.0,1999
+The Matrix,2.0,1999
+The Minus Man,3.25,1999
+The Muse,3.5,1999
+The Phantom Menace,3.0,1999
+The Red Violin,4.0,1999
+The Sixth Sense,3.75,1999
+The Straight Story,3.75,1999
+The Winslow Boy,4.0,1999
+The World is Not Enough,2.5,1999
+Three Kings,4.0,1999
+Topsy-Turvy,3.5,1999
+Toy Story 2,3.5,1999
+Trekkies,3.5,1999
+Tumbleweeds,3.5,1999
+Varsity Blues,2.5,1999
+Velvet Goldmine,2.75,1999
+"Wild, Wild West",2.0,1999
+A Simple Plan,3.5,1998
+A Soldier's Daughter Never Cries,3.0,1998
+American History X,3.25,1998
+Armageddon,1.0,1998
+"Babe, Pig in the City",4.0,1998
+Blood Guts Bullets and Octane,2.75,1998
+Bulworth,3.5,1998
+Celebrity,3.0,1998
+City Of Angels,3.25,1998
+Clockwatchers,2.5,1998
+Cousin Bette,3.0,1998
+Dark City,3.75,1998
+Deep Impact,3.0,1998
+Down In The Delta,3.75,1998
+Earth,4.0,1998
+Elizabeth,3.75,1998
+Elmo In  Grouchland,2.5,1998
+Enemy of the State,2.75,1998
+Following,3.5,1998
+Gods and Monsters,2.75,1998
+Half A Chance,3.25,1998
+Henry Fool,2.5,1998
+Hilary And Jackie,3.5,1998
+Hope Floats,1.5,1998
+How Stella Got Her Groove Back,2.75,1998
+Hurlyburly,3.0,1998
+Insomnia,3.5,1998
+Last Night,2.75,1998
+Lethal Weapon 4,2.5,1998
+Little Dieter Needs To Fly,3.25,1998
+Little Voice,3.25,1998
+Living Out Loud,2.5,1998
+Men With Guns,3.5,1998
+Momument Avenue,3.25,1998
+Next Stop Wonderland,3.25,1998
+Oscar and Lucinda,3.25,1998
+Out of Sight,3.5,1998
+Pecker,3.0,1998
+Permanent Midnight,3.0,1998
+Pi,3.0,1998
+Pleasantville,3.5,1998
+Practical Magic,1.5,1998
+Primary Colors,3.75,1998
+Prince of Egypt,3.0,1998
+Return to Paradise,3.5,1998
+Ronin,3.0,1998
+Rounders,3.0,1998
+Rugrats Movie,2.5,1998
+Rush Hour,2.5,1998
+Saving Private Ryan,4.0,1998
+Shakespeare in Love,4.0,1998
+Six Days Seven Nights,2.75,1998
+Smoke Signals,3.25,1998
+Snake Eyes,2.5,1998
+Soldier,2.5,1998
+Something About Mary,3.25,1998
+Spice World,2.0,1998
+Star Trek Insurrection,3.0,1998
+Surviving Picasso,3.25,1998
+Taste Of Cherry,2.0,1998
+The Apostle,3.5,1998
+The Big Lebowski,3.5,1998
+The Book Of Life,2.75,1998
+The Celebration,3.75,1998
+The Con,3.0,1998
+The Gingerbread Man,3.5,1998
+The Governess,3.0,1998
+The Horse Whisperer,3.0,1998
+The Mask of Zorro,2.75,1998
+The Opposite of Sex,3.0,1998
+The Parent trap,2.75,1998
+The Saltmen Of Tibet,3.0,1998
+The Slums of Beverly Hills,3.25,1998
+The Spanish Prisoner,3.75,1998
+The Truman Show,3.75,1998
+Three Businessmen,3.0,1998
+Twenty Four Seven,3.0,1998
+Twilight,2.5,1998
+Two Guys and a Girl,3.0,1998
+U.S. Marshalls,2.5,1998
+Wag the Dog,4.0,1998
+Waking Ned Devine,3.25,1998
+What Dreams May Come,2.0,1998
+You've Got Mail,3.25,1998
+Zero Effect,3.5,1998
+A Life Less Ordinary,2.5,1997
+Absolute Power,3.25,1997
+Addicted to Love,2.75,1997
+Air Force One,3.25,1997
+As Good as it Gets,3.25,1997
+Austin Powers,3.0,1997
+Boogie Nights,4.0,1997
+Breakdown,3.0,1997
+Chasing Amy,3.5,1997
+Children Of The Revolution,3.75,1997
+Citizen Ruth,3.5,1997
+Conspiracy Theory,3.0,1997
+Contact,3.5,1997
+Daytrippers,2.75,1997
+Deconstructing Harry,3.5,1997
+Donnie Brasco,3.5,1997
+Eve's Bayou,3.75,1997
+"Fast, Cheap and Out of Control",3.25,1997
+Fierce Creatures,2.75,1997
+Fire,3.25,1997
+Good Will Hunting,4.0,1997
+Grays Aatomy,3.25,1997
+Grosse Pointe Blank,3.5,1997
+Happy Together,2.5,1997
+Hard Eight,3.5,1997
+Jackie Brown,3.75,1997
+Kiss the Girls,2.5,1997
+L.A. Confidential,4.0,1997
+Lawn Dogs,2.75,1997
+Liar Liar,2.5,1997
+Live Flesh,3.25,1997
+Love And Death On Long Island,3.5,1997
+Men in Black,3.5,1997
+Midnight in the Garden of Good.,3.25,1997
+Mrs. Brown,3.5,1997
+My Best Friend's Wedding,3.0,1997
+Open Your Eyes,3.5,1997
+Playing God,3.0,1997
+Romy & Michelle's HS Reunion,2.5,1997
+Schizopolis,2.5,1997
+Shall We Dance,3.75,1997
+Smilla's Sense of Snow,3.25,1997
+Starship Troopers,3.25,1997
+Suicide Kings,3.5,1997
+Telling Lies in America,3.25,1997
+The Big One,3.0,1997
+The Castle,3.5,1997
+The Devil's Advocate,2.5,1997
+The End Of Violence,2.25,1997
+The Fifth Element,2.0,1997
+The Full Monty,3.75,1997
+The Game,3.0,1997
+The Lost World,2.5,1997
+The Man Who Knew Too Little,2.5,1997
+The Postman,1.5,1997
+The Saint,2.0,1997
+The Sweet Hereafter,3.75,1997
+Titanic,2.75,1997
+Tomorrow Never Dies,2.5,1997
+Ulee's Gold,3.75,1997
+Waiting for Guffman,3.25,1997
+Welcome To Sarajevo,3.5,1997
+When We Were Kings,3.5,1997
+Wilde,3.0,1997
+Winter Sleepers,3.5,1997
+101 Dalmations,3.0,1996
+12 Monkeys,3.5,1996
+6:00 News,2.5,1996
+A Single Girl,2.75,1996
+A Time To Kill,3.25,1996
+Beautiful Girls,3.5,1996
+Big Night,3.75,1996
+Born Yesterday,2.0,1996
+Bottle Rocket,3.0,1996
+Box Of Moonlight,3.0,1996
+Broken Arrow,2.5,1996
+Chungking Express,3.25,1996
+Courage Under Fire,2.5,1996
+Dead Man,2.75,1996
+Down Periscope,2.5,1996
+Dragonheart,2.5,1996
+Everyone Says I Love You,3.25,1996
+Fargo,4.0,1996
+Flirting With Disaster,3.5,1996
+Ghost In The Shell,3.5,1996
+Girl 6,2.75,1996
+Grace of My Heart,3.25,1996
+Homeward Bound 2,3.0,1996
+Independence Day,3.0,1996
+Irma Vep,2.5,1996
+Jerry Maguire,4.0,1996
+Kama Sutra,2.25,1996
+La Promesse,3.75,1996
+Last Man Standing,2.25,1996
+Living In Oblivion,3.5,1996
+Lonestar,4.0,1996
+Love Serenede,2.75,1996
+Manny & Lo,3.25,1996
+Michael,3.5,1996
+Microcosmos,2.5,1996
+Mission Impossible,3.25,1996
+My Fellow Americans,2.5,1996
+Phenomenon,3.5,1996
+Ransom,3.5,1996
+Ridicule,3.25,1996
+Secrets and Lies,3.75,1996
+Shine,3.5,1996
+Star Trek First Contact,3.75,1996
+Striptease,1.5,1996
+Swingers,3.5,1996
+That Thing You Do,3.75,1996
+The English Patient,4.0,1996
+The Last Supper,2.5,1996
+The People Vs. Larry Flynt,3.5,1996
+The Phantom,2.75,1996
+The Truth About Cats & Dogs,2.75,1996
+The Whole Wide World,2.5,1996
+Things to do in Denver,2.5,1996
+Tin Cup,3.25,1996
+Trainspotting,3.25,1996
+Two Much,2.0,1996
+Underground,3.5,1996
+Amatuer,3.25,1995
+Antonia's Line,3.5,1995
+Apollo 13,3.75,1995
+Babe,4.0,1995
+Before Sunrise,3.75,1995
+Braveheart,3.25,1995
+Casino,3.75,1995
+Casper,2.0,1995
+Clockers,3.5,1995
+Clueless,3.5,1995
+Crumb,3.0,1995
+Dead Man Walking,3.75,1995
+Devil in a Blue Dress,3.25,1995
+Die Hard w/a Vengence,2.5,1995
+Exotica,4.0,1995
+Fallen Angels,2.5,1995
+Forget Paris,3.25,1995
+Four Rooms,2.5,1995
+French Kiss,3.0,1995
+Get Shorty,3.75,1995
+Goldeneye,2.5,1995
+Grumpier Old Men,2.5,1995
+Hackers,3.0,1995
+Heat,4.0,1995
+Homw For The Holidays,3.0,1995
+Immortal Beloved,3.0,1995
+Indian in the Cupboard,3.0,1995
+Jefferson In Paris,2.25,1995
+Kicking And Screaming,3.0,1995
+Leaving Las Vegas,4.0,1995
+Living In Oblivion,3.75,1995
+Mallrats,3.0,1995
+Mighty Aphrodite,3.75,1995
+Mr. Holland's Opus,2.75,1995
+Nixon,3.5,1995
+Once Were Warriors,3.25,1995
+Rob Roy,2.5,1995
+Sabrina,2.5,1995
+Se7en,3.5,1995
+Shallow Grave,3.5,1995
+Show Girls,2.5,1995
+Smoke,3.25,1995
+"Steal Big, Steal Little",2.5,1995
+Strange Days,4.0,1995
+Swimming with Sharks,3.5,1995
+The American President,3.75,1995
+The Bridges of Madison County,3.5,1995
+The Doom Generation,1.0,1995
+The Englishman who went ï¿½,3.5,1995
+The Madness of King George,3.5,1995
+The Secret of Roan Inish,3.5,1995
+The Usual Suspects,3.75,1995
+The World Of Jacques Demy,3.25,1995
+To Die For,3.75,1995
+To Wong Foo Thanks for ï¿½,2.5,1995
+Toy Story,4.0,1995
+Unzipped,2.5,1995
+Virtuosity,3.75,1995
+Waterworld,1.5,1995
+While You Were Sleeping,3.0,1995
+Angels in the Outfield,2.0,1994
+Ashes Of Time Redux,2.25,1994
+Backbeat,3.5,1994
+Beverly Hills Cop 3,2.0,1994
+Blink,3.0,1994
+Blue Sky,3.25,1994
+Bullets over Broadway,3.75,1994
+Clerks,3.25,1994
+D-Day To Berlin,3.0,1994
+Dumb and Dumber,2.5,1994
+Eat Drink Man Woman,3.5,1994
+Ed Wood,3.25,1994
+Embrace Of The Vampire,1.0,1994
+Flintstones,1.5,1994
+Forrest Gump,4.0,1994
+Four Weddings and a Funeral,3.5,1994
+Guarding Tess,3.5,1994
+Heavenly Creatures,3.25,1994
+Hoop Dreams,4.0,1994
+I Love Trouble,3.0,1994
+I'll Do Anything,2.5,1994
+In the Name of the Father,3.25,1994
+Interview with the Vampire,2.5,1994
+IQ,2.5,1994
+Jungle Book,2.0,1994
+Junior,2.5,1994
+"Leon, The Professional",3.5,1994
+Little Buddha,3.0,1994
+Little Giants,2.5,1994
+Little Women,2.0,1994
+Maverick,2.75,1994
+Metropolitan,3.5,1994
+Mrs. Parker and The Vicious Circle,2.5,1994
+Murial's Wedding,2.5,1994
+My Girl II,2.0,1994
+Nobody's Fool,3.5,1994
+"Priscilla, Queen of the Desert",3.25,1994
+Pulp Fiction,4.0,1994
+Quiz Show,3.75,1994
+Ready to Wear,3.0,1994
+Red,3.5,1994
+Red Rock West,3.5,1994
+Renaissance Man,2.5,1994
+Shadowlands,4.0,1994
+Shawshank Redemption,4.0,1994
+Sirens,3.5,1994
+Spanking The Monkey,2.75,1994
+Speed,3.0,1994
+Star Trek Generations,2.5,1994
+Stargate,2.5,1994
+Terminal Velocity,1.5,1994
+The Advocate,3.0,1994
+The Browning Version,2.75,1994
+The Client,2.5,1994
+The Crow,2.0,1994
+The Hudsucker Proxy,3.25,1994
+The Last Seduction,3.5,1994
+The Lion King,3.5,1994
+The Mask,2.5,1994
+The Puppet Masters,2.75,1994
+The Ref,2.75,1994
+The Road To Wellville,2.75,1994
+The Santa Clause,2.5,1994
+Theremin,3.0,1994
+Time Indefinite,2.5,1994
+Tom & Viv,3.0,1994
+True Lies,3.0,1994
+Vanya On 42nd Street,3.25,1994
+White,3.5,1994
+Wolf,3.0,1994
+32 Short Films About Glenn Gould,3.75,1993
+A Perfect World,4.0,1993
+Addams Family Values,2.5,1993
+Amos & Andrew,2.75,1993
+Army of Darkness,2.5,1993
+Being Human,2.5,1993
+Benny and Joon,2.25,1993
+Blue,3.5,1993
+Cool Runnings,2.5,1993
+Dave,3.5,1993
+Dazed And Confused,3.0,1993
+Falling Down,2.5,1993
+Fearless,2.75,1993
+Groundhog Day,3.5,1993
+Homeward Bound,2.5,1993
+In the Line of Fire,3.5,1993
+Indian Summer,2.75,1993
+Into The West,2.75,1993
+Jurrasic Park,3.0,1993
+Last Action Hero,2.5,1993
+Mad Dog and Glory,3.25,1993
+Manhattan Murder Mystery,3.5,1993
+Matinee,2.5,1993
+Mr. Jones,2.5,1993
+Mrs. Doubtfire,3.0,1993
+Passion Fish,3.5,1993
+Philadelphia,4.0,1993
+Point of No Return,3.0,1993
+Remains of the Day,3.5,1993
+Schindler's List,4.0,1993
+Searching For Bobby Fisher,4.0,1993
+Short Cuts,4.0,1993
+Six Degrees Of Seperation,3.5,1993
+Sleepless in Seattle,3.25,1993
+Sommersby,2.5,1993
+Stalingrad,3.25,1993
+The Age of Innocence,3.25,1993
+The Firm,3.0,1993
+The Fugitive,3.5,1993
+The House of the Spirits,1.5,1993
+The Joy Luck Club,4.0,1993
+The Pelican Brief,3.0,1993
+The Piano,3.5,1993
+The Snapper,3.25,1993
+The War Room,3.25,1993
+The Wedding Banquet,3.0,1993
+Tombstone,3.25,1993
+Undercover Blues,2.75,1993
+Wallace & Gromit Shorts,3.5,1993
+Wayne's World II,3.0,1993
+What's Eating Gilbert Grape?,3.75,1993
+What's Love Got to do With it?,3.25,1993
+A Brief History of Time,2.5,1992
+A Few Good Men,3.25,1992
+A League of Their Own,3.5,1992
+A Midnight Clear,2.75,1992
+Aladdin,3.5,1992
+Basic Instinct,3.25,1992
+Boomerang,3.0,1992
+Buffy the Vampire Slayer,2.75,1992
+Chaplin,2.5,1992
+Cutting Edge,2.5,1992
+Deep Cover,3.5,1992
+Final Analysis,2.5,1992
+Fried Green Tomatoes,3.5,1992
+Gas Food Lodging,3.25,1992
+Glengarry Glen Ross,3.75,1992
+Grand Canyon,3.75,1992
+Hard Bolied,2.25,1992
+Hero,3.5,1992
+Honeymoon in Vegas,3.0,1992
+Housesitter,2.5,1992
+Howard's End,4.0,1992
+Husbands And Wives,3.5,1992
+Johnny Suede,3.0,1992
+Leap of Faith,3.5,1992
+Lethal Weapon III,3.0,1992
+Light Sleeper,3.5,1992
+Malcolm X,4.0,1992
+Mr. Baseball,3.0,1992
+Mr. Saturday Night,3.0,1992
+Muppet Christmas Carol,3.0,1992
+My Cousin Vinny,3.25,1992
+My New Gun,3.0,1992
+One False Move,3.75,1992
+Orlando,3.0,1992
+Porco Rosso,3.25,1992
+Reservoir Dogs,3.5,1992
+Scent Of A Woman,3.25,1992
+Shadows And Fog,2.25,1992
+Simple Men,2.5,1992
+Sister Act,3.0,1992
+Sneakers,3.0,1992
+The Bad Lieutenant,3.25,1992
+The Bodyguard,2.5,1992
+The Crying Game,4.0,1992
+The Gun In Betty Lou's Handbag,3.25,1992
+The Player,4.0,1992
+Toys,2.0,1992
+Unforgiven,4.0,1992
+Visions Of Light,3.25,1992
+Wayne's World,3.0,1992
+White Men Can't Jump,3.5,1992
+Year of the Comet,3.25,1992
+35Up,3.5,1991
+Anima Mundi,3.0,1991
+Barton Fink,3.5,1991
+Beauty and the Beast,3.75,1991
+Billy Bathgate,2.5,1991
+Bugsy,3.0,1991
+China Moon,2.5,1991
+Chuck Amuck,3.0,1991
+City Slickers,3.0,1991
+Days Of Being Wild,3.0,1991
+Dead Again,4.0,1991
+Defending Your Life,3.5,1991
+Delicatessen,3.25,1991
+Doc Hollywood,3.25,1991
+Dogfight,3.25,1991
+Flirting,3.75,1991
+Green Card,3.0,1991
+Hearts Of Darkness,3.25,1991
+Homicide,3.75,1991
+Ju Dou,2.75,1991
+L.A. Story,3.5,1991
+La Femme Nikita,3.5,1991
+My Own Private Idaho,2.75,1991
+Necessary Roughness,3.0,1991
+Night On Earth,3.5,1991
+Point Break,1.5,1991
+Raise The Red Lantern,3.5,1991
+Ramblin Rose,3.5,1991
+Robin Hood,1.5,1991
+Salmonberries,2.5,1991
+Scenes From A Mall,3.0,1991
+Slacker,3.5,1991
+Soap Dish,2.25,1991
+Star Trek VI,3.75,1991
+Terminator 2,3.75,1991
+The Beautiful Troublemaker,2.75,1991
+The Commitments,3.75,1991
+The Doctor,2.5,1991
+The Double Life Of Veronique,3.25,1991
+The Efficiency Expert,2.75,1991
+The Grifters,4.0,1991
+The Hairdresser's Husband,3.5,1991
+The Hard Way,3.5,1991
+The Killer,3.25,1991
+The Silence of the Lambs,4.0,1991
+Thelma & Louise,3.0,1991
+"Truly, Madly,Deeply",2.75,1991
+What About Bob,3.0,1991
+A Shock To The System,3.5,1990
+After Dark My Sweet,3.25,1990
+Awakenings,3.5,1990
+Back to the Future 3,3.0,1990
+Cadillac Man,3.0,1990
+Cinema Paradiso,3.5,1990
+Dances With Wolves,3.75,1990
+Dick Tracy,3.0,1990
+Die Hard 2,3.0,1990
+Dreams,3.5,1990
+"Enemies, A Love Story",3.5,1990
+Europa Europa,3.5,1990
+Ghost,3.0,1990
+Glory,3.75,1990
+Goodfellas,4.0,1990
+Hamlet,3.0,1990
+Henry And June,3.5,1990
+Home Alone,3.0,1990
+I Love You to Death,3.25,1990
+Impromptu,3.75,1990
+Jacob's Ladder,3.25,1990
+Jesus Of Montreal,3.5,1990
+Joe Vs the Volcano,3.0,1990
+Kindergarden Cop,2.75,1990
+King Of New York,3.25,1990
+Leningrad Cowboys Go America,2.5,1990
+Metropolitan,3.5,1990
+Miam Blues,2.5,1990
+Miller's Crossing,3.75,1990
+Mississippi Masala,3.5,1990
+Mo'  Better Blues,3.25,1990
+Monsieur Hure,3.5,1990
+My Blue Heaven,3.0,1990
+Mystery Train,3.25,1990
+Narrow Margin,2.5,1990
+Postcards From the Edge,3.0,1990
+Presumed Innocent,3.5,1990
+Pretty Woman,3.25,1990
+Q & A,2.75,1990
+Reversal of Fortune,3.75,1990
+Teenage Mutant Ninja Turtles,1.0,1990
+"The Cook, The Thief, His Wifeï¿½",3.25,1990
+The Freshman,3.25,1990
+The Godfather III,2.75,1990
+The Gods Must be Crazy,3.0,1990
+The Sheltering Sky,2.75,1990
+The Tall Guy,3.0,1990
+The Unbelievable Truth,3.0,1990
+Total Recall,3.25,1990
+Tremors,2.5,1990
+Tune in Tomorrow,3.25,1990
+Apartment Zero,3.25,1989
+Babette's Feast,3.5,1989
+Back to the Future 2,3.25,1989
+Batman,3.0,1989
+Blaze,3.5,1989
+Breaking In,3.5,1989
+Cookie,3.0,1989
+Cousins,2.5,1989
+Crimes and Misdemeanors,3.75,1989
+Dead Poets Society,3.25,1989
+Do The Right Thing,4.0,1989
+Driving Miss Daisy,4.0,1989
+Drugstore Cowboy,3.5,1989
+Eat A Bowl Of Tea,2.5,1989
+Farewell To The King,3.0,1989
+Field Of Dreams,3.5,1989
+Ghostbusters 2,3.0,1989
+Great Balls of Fire,3.0,1989
+Gross Anatomy,3.5,1989
+Indiana Jones & the Last Crusade,3.25,1989
+Kiki's Delivery Service,3.0,1989
+Lean on Me,3.25,1989
+Lethal Weapon II,2.75,1989
+License To Kill,3.5,1989
+Miracle Mile,2.5,1989
+My Left Foot,3.75,1989
+Roger and Me,3.0,1989
+Rosalie Goes Shopping,2.75,1989
+Say Anything,4.0,1989
+"Sex, Lies And Videotape",3.75,1989
+Star Trek V,1.0,1989
+Strapless,3.25,1989
+Tap ,3.0,1989
+The Big Picture,3.25,1989
+The Fabulous Baker Boys,3.5,1989
+The Little Mermaid,3.5,1989
+The Mighty Quinn,4.0,1989
+The Package,2.5,1989
+The War of the Roses,3.5,1989
+True Believer,3.5,1989
+True Love,2.75,1989
+When Harry Met Sally,3.75,1989
+A Fish Called Wanda,3.75,1988
+A Taxing Woman,3.0,1988
+Alien Nation,3.0,1988
+Au Revoir Les Enfants,3.5,1988
+Big,3.5,1988
+"Bright Lights, Big City",3.0,1988
+Bull Durham,4.0,1988
+Buster,2.75,1988
+Cane Toads,3.0,1988
+Coming To America,2.25,1988
+Die Hard,3.0,1988
+Dirty Rotten Scoundrels,3.0,1988
+Eight Men Out,3.25,1988
+Everbody's All American,3.25,1988
+Frantic,3.25,1988
+Hairspray,3.0,1988
+Housekeeping,3.5,1988
+How To Get Ahead In Advertising,3.25,1988
+It's Impossible To Learn To Plow By Reading Books,2.5,1988
+Little Nikita,2.5,1988
+Married To The Mob,3.0,1988
+Midnight Run,3.5,1988
+Moon Over Parador,2.75,1988
+Moonstruck,4.0,1988
+Mystic Pizza,3.5,1988
+Naked Gun,2.75,1988
+Powaqqatsi,2.25,1988
+Rain Man,3.5,1988
+Running On Empty,3.0,1988
+Scrooged,3.25,1988
+Slam Dance,3.25,1988
+Tapeheads,3.0,1988
+Tequila Sunrise,2.75,1988
+The Accidental Tourist,4.0,1988
+The Big Blue,1.5,1988
+The Chocolate War,3.5,1988
+The Dead Pool,2.75,1988
+The Land Before Time,3.0,1988
+The Last Temptation Of Christ,4.0,1988
+The Thin Blue Line,3.5,1988
+The Unbearable Lightness of Being,3.75,1988
+The Vanishing,3.5,1988
+The Year My Voice Broke,3.5,1988
+Things Change,3.75,1988
+To Live And Die In LA,3.5,1988
+Tucker,3.5,1988
+Twins,3.0,1988
+Two Moon Junction,1.0,1988
+Who Framed Roger Rabbit,4.0,1988
+Women on The Verge Of A Nervous Breakdown,3.25,1988
+Working Girl,3.25,1988
+Angel Heart,2.5,1987
+Baby Boom,2.5,1987
+Bagdad Cafï¿½,3.5,1987
+Beverly Hills Cop II,3.0,1987
+Black Widow,2.75,1987
+Blind Chance,2.5,1987
+Broadcast News,3.5,1987
+Dirty Dancing,3.0,1987
+Dragnet,2.5,1987
+Empire Of The Sun,3.5,1987
+Evil Dead 2,2.5,1987
+Fatal Attraction,1.5,1987
+Full Metal Jacket,3.0,1987
+Good Morning Viet Nam,3.5,1987
+Hollywood Shuffle,3.0,1987
+Hope and Glory,3.0,1987
+House of Games,4.0,1987
+Ishtar,2.25,1987
+Lethal Weapon,3.75,1987
+Making Mr. Right,3.0,1987
+Mannequin,1.5,1987
+Matewan,3.75,1987
+My Neighbor Totoro,3.5,1987
+No Way Out,3.0,1987
+Outrageous Fortune,2.75,1987
+"Planes, Trains & Automobiles",2.5,1987
+Prick Up Your Ears,3.25,1987
+Radio Days,3.5,1987
+Raising Arizona,3.5,1987
+Robocop,3.75,1987
+Roxanne,3.75,1987
+Sammy And Rosie Get Laid,3.25,1987
+Spaceballs,2.25,1987
+Stakeout,3.0,1987
+Street Smart,2.25,1987
+Suspect,3.0,1987
+Tampopo,3.75,1987
+The Big Easy,3.0,1987
+The Dead,3.0,1987
+The Living Daylights,3.25,1987
+The Pick-up Artist,3.25,1987
+The Princess Bride,4.0,1987
+The Running Man,2.75,1987
+The Untouchables,2.75,1987
+The Whales Of August,3.5,1987
+The Witches of Eastwick,3.0,1987
+Then Lost Boys,2.75,1987
+Three Men and a Baby,2.5,1987
+Throw Momma From the Train,3.0,1987
+Tin Men,3.25,1987
+Wall Street,3.5,1987
+Wings of Desire,3.25,1987
+Withnail And I ,3.0,1987
+9 1/2 Weeks,2.5,1986
+A Room With a View,4.0,1986
+About Last Night,3.0,1986
+Aliens,4.0,1986
+At Close Range,3.0,1986
+Black Moon Rising,1.75,1986
+Blue Velvet,3.0,1986
+Castle In The Sky,3.25,1986
+Children of a Lesser God,3.0,1986
+Crocodile Dundee,2.5,1986
+Crossroads,3.0,1986
+Defense Of The Realm,2.75,1986
+Desert Bloom,3.25,1986
+Down And Out in Beverly Hills,3.5,1986
+Down By Law,3.25,1986
+Ferris Bueller's Day Off,2.5,1986
+Half Moon Street,2.5,1986
+Hannah and her Sisters,3.75,1986
+Heartbreak Ridge,3.0,1986
+Jean De Florette,3.5,1986
+"Jo Jo Dancer, Your Life is Calling",3.5,1986
+La Ceremonie,3.0,1986
+Legal Eagles,3.0,1986
+Lucas,3.25,1986
+Manhunter,3.5,1986
+Manon Of The Spring,3.75,1986
+Mona Lisa,3.5,1986
+Money Pit,2.25,1986
+Peggy Sue Got Married,4.0,1986
+Platoon,3.5,1986
+Pretty In Pink,3.0,1986
+Running Scared,2.5,1986
+Ruthless People,3.5,1986
+Sherman's March,2.75,1986
+She's Got To Have It,3.25,1986
+Smooth Talk,3.0,1986
+Soul Man,2.5,1986
+Stand By Me,4.0,1986
+Star Trek IV,3.5,1986
+Sweet Liberty,2.5,1986
+The Coca Cola Kid,3.5,1986
+The Color Of Money,3.5,1986
+The Decline Of The American Empire,3.25,1986
+The Fly,4.0,1986
+The Golden Child,2.5,1986
+The Mission,3.5,1986
+The Name of the Rose,3.0,1986
+Top Gun,3.25,1986
+Tough Guys,2.25,1986
+Trouble in Mind,2.5,1986
+Vagabond,3.5,1986
+Wise Guys,3.0,1986
+A Chorus Line,3.0,1985
+A Soldier's Story,3.0,1985
+A View To A Kill,2.75,1985
+A Year Of The Quiet Sun,3.5,1985
+After Hours,2.5,1985
+Agnes Of God,2.75,1985
+American Flyers,3.25,1985
+Back to the Future,3.75,1985
+Brazil,3.0,1985
+Choose Me,3.5,1985
+Commando,2.0,1985
+Desperately Seeking Susan,3.0,1985
+Dim Sum,2.75,1985
+DOA,1.75,1985
+Enemy Mine,2.75,1985
+fandango,2.5,1985
+George Stevens A Filmakers Journey,3.25,1985
+Insignificance,3.0,1985
+Jagged Edge,3.0,1985
+Jewel of the Nile,2.5,1985
+King David,1.0,1985
+Kiss of the Spider Woman,3.5,1985
+Mad Max Beyond Thunderdome,3.0,1985
+Murphy's Romance,3.25,1985
+My Beautiful Laundrette,3.25,1985
+My Life As A Dog,3.75,1985
+Out Of Africa,3.5,1985
+Pale Rider,3.0,1985
+Prizzi's Honor,3.25,1985
+Ran,4.0,1985
+Remo Williams,2.75,1985
+Rocky IV,2.0,1985
+Runaway Train,4.0,1985
+Silverado,3.5,1985
+Subway,2.75,1985
+Sugarbaby,3.0,1985
+The Color Purple,4.0,1985
+The Funeral,3.0,1985
+The Journey of Natty Gann,3.25,1985
+The Quiet Earth,3.25,1985
+The Shooting Party,3.5,1985
+The Sure Thing,3.5,1985
+Vision Quest,2.25,1985
+White Nights,2.0,1985
+Witness,4.0,1985
+2010,2.75,1984
+28Up,3.75,1984
+Against All Odds,2.5,1984
+All of Me,3.0,1984
+Amadeus,4.0,1984
+Beverly Hills Cop,3.0,1984
+Body Double,3.0,1984
+Broadway Danny Rose,3.5,1984
+Comfort and Joy,3.5,1984
+Conan The Destroyer,1.5,1984
+Footloose,2.25,1984
+Ghostbusters,3.75,1984
+Greystoke,2.0,1984
+Indiana Jones Amd The Temple Doom,2.75,1984
+Moscow On The Hudson,3.25,1984
+Mrs. Soffel,2.25,1984
+Once Upon A Time In America,3.5,1984
+"Paris, Texas",3.5,1984
+Places in the Heart,3.5,1984
+Purple Rain,3.5,1984
+Repo Man,3.25,1984
+Romancing the Stone,3.5,1984
+Secret Honor,3.75,1984
+Spinal Tap,4.0,1984
+Star Trek III,3.0,1984
+Starman,3.5,1984
+Stop Making Sense,3.5,1984
+Stranger Than Paradise,2.5,1984
+Streets Of Fire,2.0,1984
+Terminator,3.75,1984
+The Adventures Of Buckaroo Banzai,1.5,1984
+The Bounty,3.0,1984
+The Cotton Club,3.25,1984
+The Dresser,3.5,1984
+The Falcon And the Snowman,3.25,1984
+The Flamingo Kid,3.25,1984
+The Hit,3.25,1984
+The Karate Kid,3.0,1984
+The Natural,3.25,1984
+The Purple Rose Of Cairo,3.5,1984
+Tightrope,3.0,1984
+Top Secret,3.0,1984
+Under The Volcano,3.0,1984
+A Christmas Story,3.25,1983
+Baby It's You,3.25,1983
+Betrayal,1.5,1983
+Blood Simple,3.5,1983
+Blue Thunder,2.75,1983
+Confidentially Yours,3.5,1983
+Dead Men Don't Wear Plaid,2.0,1983
+Educating Rita,2.75,1983
+Flashdance,2.5,1983
+Gorky Park,2.75,1983
+Heart Like A Wheel,2.75,1983
+Koyaanisqatsi,2.25,1983
+Le Dernier Combat,2.75,1983
+Local Hero,4.0,1983
+Merry Christmas Mr. Lawrence,2.75,1983
+Monty Python's The Meaning of Life,2.75,1983
+Never Say Never Again,3.25,1983
+Octopussy,3.0,1983
+Out Of The Blue,2.5,1983
+Pauline At The Beach,3.25,1983
+Return of the Jedi,3.75,1983
+Richard Pryor Here and Now,3.5,1983
+Risky Business,3.75,1983
+Runble Fish,2.75,1983
+Star80,3.5,1983
+Sudden Impact,2.5,1983
+Tender Mercies,3.5,1983
+Terms of Endearment,4.0,1983
+Testament,3.5,1983
+The Big Chill,3.5,1983
+The Dead Zone,3.25,1983
+The Hunger,1.5,1983
+The King Of Comedy,3.25,1983
+The Outsiders,3.25,1983
+The Return of Martin Guerre,3.0,1983
+The Right Stuff,4.0,1983
+The Year of Living Dangerously,4.0,1983
+To Be or Not To Be,2.25,1983
+Trading Places,3.5,1983
+Valley Girl,2.25,1983
+Wargames,3.25,1983
+Zelig,2.5,1983
+48 Hours,3.5,1982
+An Officer and a Gentleman,3.5,1982
+Barbarosa,3.0,1982
+Blade Runner,3.5,1982
+Burden Of Dreams,3.0,1982
+Cat People,3.25,1982
+Chan is Missing,3.0,1982
+Conan The Barbarian,1.5,1982
+Das Boot,4.0,1982
+Dead Man Don't Wear Plaid,2.0,1982
+Deathtrap,3.0,1982
+Diner,3.0,1982
+Diva,4.0,1982
+Eating Raoul,2.5,1982
+ET,4.0,1982
+Fast Times at Ridgemont High,2.25,1982
+Fitzcarraldo,3.5,1982
+Ghandi,3.75,1982
+Moonlighting,3.5,1982
+My Dinner with Andre,4.0,1982
+My Favorite Year,3.5,1982
+Night Of The Shooting Stars,2.75,1982
+Night Shift,2.5,1982
+One From The Heart,2.0,1982
+Personal Best,3.5,1982
+Richard Pryor Sunset Strip,3.5,1982
+Star Trek II,3.75,1982
+Tender Mercies,3.5,1982
+The Atomic Cafï¿½,3.5,1982
+The Best Little Whorehouse in Texas,2.25,1982
+The Grey Fox,3.75,1982
+The Road Warrior,3.5,1982
+The Verdict,3.5,1982
+"The Weavers, Wasn't That A Time!",3.75,1982
+The World According to Garp,3.5,1982
+Tootsie,4.0,1982
+Veronika Voss,3.25,1982
+Victor/Victoria,2.5,1982
+White Dog,1.0,1982
+Who AM I This Time?,3.5,1982
+Absence Of Malice,3.5,1981
+Arthur,3.0,1981
+Blow Out,2.5,1981
+Body Heat,3.75,1981
+Chariots of Fire,3.25,1981
+Cutter's Way,3.5,1981
+Eye of the Needle,3.75,1981
+For Your Eyes Only,2.75,1981
+Gallipoli,3.5,1981
+Gregory's Girl,3.25,1981
+Hyams,2.5,1981
+Lola,3.5,1981
+Mephisto,4.0,1981
+Modern Romance,2.75,1981
+Neighbors,3.0,1981
+On Golden Pond,3.75,1981
+Quest for Fire,3.0,1981
+Raiders Of The Lost Ark,4.0,1981
+Reds,3.25,1981
+Rich and Famous,1.5,1981
+SOB,2.25,1981
+Stripes,3.0,1981
+Superman II,3.5,1981
+Taps,2.75,1981
+The Dogs Of War,3.0,1981
+The French Lieutenant's Woman,3.5,1981
+They All Laughed,2.75,1981
+Thief,3.25,1981
+Time Bandits,2.0,1981
+True Confessions,3.0,1981
+"Vernon, Florida",3.25,1981
+Whose Life Is It Anyway?,3.0,1981
+Wolfen,2.5,1981
+American Gigolo,3.25,1980
+Atlantic City,3.75,1980
+Blues Brothers,2.25,1980
+Breaker Morant,3.5,1980
+Bronco Billy,3.0,1980
+Caddyshack,2.0,1980
+Carny,2.75,1980
+Charleen,3.25,1980
+Coal Miner's Daughter,3.5,1980
+Dressed To Kill,2.5,1980
+Fame,3.0,1980
+Gloria,3.75,1980
+Hopscotch,3.75,1980
+How To Beat The High Cost Of Living,2.25,1980
+Mad Max,3.0,1980
+Melvin and Howard,3.0,1980
+Nine To Five,3.0,1980
+Popeye,3.0,1980
+Private Benjaman,3.25,1980
+Raging Bull,4.0,1980
+Return Of The Secaucus 7,3.0,1980
+Roadie,2.25,1980
+Somewhere In Time,2.25,1980
+Stardust Memories,3.0,1980
+Stir Crazy,2.25,1980
+Tess,2.75,1980
+The Big Red One,3.25,1980
+The Empire Strikes Back,4.0,1980
+The Final Countdown,3.0,1980
+The Last Metro,3.25,1980
+The Long Riders,2.75,1980
+The Nude Bomb,1.5,1980
+The Stunt Man,3.5,1980
+Wholly Moses,1.0,1980
+10,2.75,1979
+A Little Romance,3.25,1979
+A Man A Woman And A Bank,2.5,1979
+a Perfect Couple,1.75,1979
+Alien,3.5,1979
+All That Jazz,3.75,1979
+And Justice For All,2.75,1979
+Apocalypse Now,3.5,1979
+Being There,4.0,1979
+Breaking Away,3.5,1979
+Hair,2.75,1979
+Kramer vs Kramer,4.0,1979
+Life of Brian,2.5,1979
+Love On The Run,3.25,1979
+Manhattan,3.75,1979
+Moonraker,2.25,1979
+My Brilliant Career,2.75,1979
+Norma Rae,3.5,1979
+Quintet,1.5,1979
+Soldier Of Orange,3.75,1979
+Star Trek TMP,2.5,1979
+The China Syndrome,3.75,1979
+The Electric Horseman,3.25,1979
+The Inlaws,3.5,1979
+The Jerk,3.0,1979
+The Kids are Alright,3.0,1979
+The Main Event,2.75,1979
+The Marriage Of Maria Braun,3.75,1979
+The Muppet Movie,3.25,1979
+The Plumber,3.0,1979
+The Warriors,2.5,1979
+Winter Kills,1.75,1979
+An Unmarried Woman,3.25,1978
+Animal House,3.25,1978
+Big Wednesday,2.5,1978
+Blue Collar,3.0,1978
+California Suite,3.0,1978
+Coming Home,3.5,1978
+Crossed Swords,2.25,1978
+Days Of Heaven,3.5,1978
+Death On The Nile,2.0,1978
+Fingers,2.5,1978
+FM,2.5,1978
+Gates of Heaven,3.75,1978
+Go Tell The Spartans,3.25,1978
+Grease,2.75,1978
+Heaven Can Wait,3.5,1978
+House Calls,3.0,1978
+I Wanna Hold Your Hand,2.75,1978
+Interiors,2.25,1978
+Koko: A Talking Gorilla,3.25,1978
+Pretty Baby,3.5,1978
+Saint Jack,3.0,1978
+Superman The Movie,3.0,1978
+The Boys From Brazil,2.25,1978
+The Buddy Holly Story,3.25,1978
+The Chant of Jimmy Blacksmith,3.25,1978
+The Fury,3.0,1978
+The Great Train Robbery,3.5,1978
+The Last Waltz,3.75,1978
+Who'll Stop The Rain,3.75,1978
+3 Women,3.0,1977
+Annie Hall,4.0,1977
+Bobby Deerfield,2.5,1977
+Close Encounters Of The Third Kind,3.5,1977
+Eraserhead,2.0,1977
+High Anxiety,3.25,1977
+Julia,3.0,1977
+Kentucky Fried Movie,2.25,1977
+Killer Of Sheep,3.0,1977
+La Soufriere,2.5,1977
+Looking for Mr. Goodbar,3.5,1977
+Mickey & Nicky,3.0,1977
+Saturday Night Fever,3.5,1977
+Slap Shot,2.75,1977
+Sorcerer,2.75,1977
+Star Wars,3.75,1977
+That Obscure Object of Desire,3.25,1977
+The American Friend,3.25,1977
+The Deep,2.75,1977
+The Duelists,2.75,1977
+The Gauntlet,2.25,1977
+The Goodbye Girl,3.5,1977
+The Late Show,3.0,1977
+The Spy Who Loved Me,2.5,1977
+The Turning Point,3.75,1977
+Welcome To L.A.,3.0,1977
+All The President's Men,3.5,1976
+Bingo Long & His All-Stars,3.25,1976
+Bound For Glory,2.75,1976
+Buffalo Bill and the Indians,3.25,1976
+Carrie,3.25,1976
+Family Plot,3.25,1976
+Fun With Dick And Jane,2.25,1976
+Grey Gardens,2.5,1976
+How Much Wood Would A ï¿½?,2.25,1976
+Lifeguard,2.5,1976
+Lipstick,1.0,1976
+Logan's Run,3.25,1976
+Marathon Man,3.75,1976
+Murder by Death,2.5,1976
+Network,3.5,1976
+Nickelodeon,3.0,1976
+Robin And Marian,3.5,1976
+Rocky,3.5,1976
+Seven Beauties,3.5,1976
+Silent Movie,2.25,1976
+Silver Streak,3.0,1976
+Stay Hungry,3.5,1976
+Taxi Driver,4.0,1976
+The Bad News Bears,3.0,1976
+The Enforcer,2.75,1976
+The Front,3.25,1976
+The Killing Of A Chinese Bookie,3.25,1976
+The Man Who Fell To Earth,3.5,1976
+The Missouri Breaks,2.5,1976
+The Outlaw Josey Wales,2.75,1976
+The Pink Panther Strikes Again,1.5,1976
+The Seven Percent Solution,3.5,1976
+The Shootist,3.5,1976
+3 Days Of The Condor,3.5,1975
+A Boy And His Dog,2.75,1975
+Bite The Bullet,3.0,1975
+Dog Day Afternoon,4.0,1975
+Jaws,4.0,1975
+Love and Death,2.75,1975
+Monty Python And The Holy Grail,3.5,1975
+Nashville,4.0,1975
+Once is Not Enough,1.5,1975
+One Flew Over the Cuckoo's Nest,3.75,1975
+Overlord,3.0,1975
+Rafferty and The Gold Dust Twins,3.25,1975
+Rancho Deluxe,1.5,1975
+Shampoo,3.5,1975
+Smile,3.5,1975
+The Cars That Ate Paris,2.75,1975
+The Drowning Pool,3.0,1975
+The Eiger Sanction,2.5,1975
+The Great Waldo Pepper,3.25,1975
+The Man In The Glass Booth,3.5,1975
+The Man Who Would Be King,3.5,1975
+The Naked Civil Servent,3.0,1975
+The Passenger,3.5,1975
+The Story Of Adele H,3.25,1975
+The Wind And The Lion,3.0,1975
+The Yakuza,3.0,1975
+Tommy,2.25,1975
+Ali: Fear Eats The Soul,3.5,1974
+Alice Doesnï¿½t Live Here Anymore,3.25,1974
+Badlands,3.25,1974
+Bank Shot,2.5,1974
+Blazing Saddles,4.0,1974
+Bring Me The Head Of Alfredo Garcia,3.25,1974
+California Split,3.25,1974
+Chinatown,4.0,1974
+F Is For Fake,3.25,1974
+For Pete's Sake,2.5,1974
+Harry and Tonto,3.25,1974
+"Lacombe, Lucien",3.75,1974
+Lenny,3.5,1974
+Man On A Swing,2.5,1974
+Murder on the Orient Express,3.5,1974
+Swept Away,2.5,1974
+That's Entertainment,3.0,1974
+The 4 Musketeers,3.5,1974
+The Conversation,3.5,1974
+The Gambler,3.5,1974
+The Godfather II,4.0,1974
+The Great Gatsby,2.5,1974
+The Longest Yard,2.75,1974
+The Man With The Golden Gun,2.75,1974
+The Odessa File,3.5,1974
+The Parallax View,3.0,1974
+The Stepford Wives,2.5,1974
+The Sugarland Express,3.0,1974
+"The Taking of Pelham 1,2,3",3.25,1974
+Thieves Like Us,3.25,1974
+Young Frankenstein,3.75,1974
+A Slightly Pregnant Man,2.5,1973
+Bang The Drum Slowly,3.5,1973
+Blume In Love,2.5,1973
+Charley Varrick,2.5,1973
+Cinderella Liberty,3.5,1973
+Cops and Robbers,2.75,1973
+Cries & Whispers,3.5,1973
+Day For Night,4.0,1973
+High Plains Drifter,3.0,1973
+Jesus Christ Superstar,3.0,1973
+Live And Let Die,2.25,1973
+Magnum Force,2.75,1973
+Mean Streets,4.0,1973
+Paper Moon,4.0,1973
+Pappilion,2.75,1973
+Pat Garrett And Billy The Kid,3.0,1973
+Save the Tiger,4.0,1973
+Scarecrow,2.75,1973
+Serpico,3.75,1973
+Sleeper,3.75,1973
+Soylent Green,2.25,1973
+The 3 Musketeers,3.75,1973
+The Day of the Jackal,3.5,1973
+The Friends Of Eddie Coyle,3.5,1973
+The Last Detail,3.75,1973
+The Laughing Policeman,2.75,1973
+The Long Good Friday,3.5,1973
+The Long Goodbye,3.5,1973
+The Macintosh Man,3.25,1973
+The Paper Chase,3.25,1973
+The Seven-Ups,2.5,1973
+The Sting,4.0,1973
+The Wicker Man,3.25,1973
+Across 110th Street,2.0,1972
+American Graffiti,3.75,1972
+"Aquirre, The Wrath of God",3.5,1972
+Avanti,3.0,1972
+Bad Company,3.0,1972
+Bananas,3.5,1972
+Cabaret,3.5,1972
+Deliverence,3.0,1972
+Duck You Sucker,3.0,1972
+Everything You Wanted to Know About Sex,3.0,1972
+Fat City,3.0,1972
+Frenzy,3.0,1972
+Gumshoe,2.75,1972
+Hollywood: The Dream Factory,2.5,1972
+Jeremiah Johnson,3.5,1972
+Junior Bonner,2.5,1972
+Lady Sings the Blues,3.25,1972
+Last Of The Red Hot Lovers,2.5,1972
+Last Tango In Paris,3.25,1972
+Pocket Money,2.75,1972
+Prime Cut,2.5,1972
+Pulp,2.5,1972
+Silent Running,3.0,1972
+Slaughterhouse Five,3.0,1972
+Sleuth,3.5,1972
+The Candidate,3.0,1972
+The Discrete Charm of the Bourgeoise,3.75,1972
+The Effect Of Gamma Rays ï¿½,3.0,1972
+The Getaway,3.0,1972
+The Godfather,4.0,1972
+The Hot Rock,3.0,1972
+The Life And Times of Judge Roy Bean,3.0,1972
+Un Flic,3.5,1972
+What's Up Doc,3.75,1972
+A New Leaf,3.0,1971
+Billy Jack,2.5,1971
+Carnal Knowledge,2.75,1971
+Chloe In The Afternoon,3.25,1971
+Diamonds Are Forever,2.5,1971
+Dirty Harry,2.75,1971
+Fiddler on the Roof,3.5,1971
+Get Carter,2.25,1971
+Gumshoe,2.75,1971
+Hannie Caulder,2.25,1971
+Happy Birthday Wanda June,2.75,1971
+Harold and Maude,3.25,1971
+Klute,3.5,1971
+Le Mans,2.25,1971
+McCabe and Mrs. Miller,3.75,1971
+Murphy's War,3.0,1971
+Pioneers In Ingolstadt,2.75,1971
+Play Misty For Me,3.0,1971
+Plaza Suite,2.75,1971
+Shoot Out,2.25,1971
+Straw Dogs,3.0,1971
+Support Your Local Gunfighter,2.5,1971
+The Anderson Tapes,3.5,1971
+The Crook,3.0,1971
+The French Connection,3.25,1971
+The Garden Of The Finzi-Continis,3.5,1971
+The Last Picture Show,4.0,1971
+The Omega Man,2.0,1971
+The Skin Game,2.75,1971
+Two-Lane Blacktop,2.25,1971
+Vanishing Point,2.25,1971
+Willie Wonka and the Chocolate Factory,3.25,1971
+Bed & Board,3.25,1970
+Beyond The Valley Of The Dolls,2.5,1970
+Brewster McCloud,2.75,1970
+Catch-22,3.25,1970
+Chariots of the Gods,1.5,1970
+Chisum,2.5,1970
+El Topo,1.0,1970
+Five Easy Pieces,3.75,1970
+Gimme Shelter,3.25,1970
+Kelly's Heroes,3.25,1970
+Le Boucher,3.5,1970
+Le Cercle Rouge,4.0,1970
+Little Big Man,4.0,1970
+Love Story,3.0,1970
+Mash,4.0,1970
+My Night At Mauds,3.5,1970
+Ned Kelly,2.0,1970
+"On a Clear Day, You Can See Forever",2.25,1970
+Patton,3.25,1970
+Performance,2.75,1970
+Start the Revolution Without Me,2.5,1970
+The American Soldier,2.5,1970
+The Ballad Of Cable Hogue,2.75,1970
+The Cheyenne Social Club,2.25,1970
+The Conformist,3.5,1970
+The Great White Hope,3.5,1970
+The Owl and the Pussycat,3.0,1970
+The Private Life Of Sherlock Homes,3.25,1970
+The Wild Child,3.0,1970
+There Was A Crooked Man,2.5,1970
+Woodstovk,3.75,1970
+Army Of Shadows,3.75,1969
+Bob&Carol&Ted&Alice,3.0,1969
+Butch Cassidy,4.0,1969
+Cactus Flower,3.25,1969
+Castle Keep,2.75,1969
+Donkey Skin,3.0,1969
+Downhill Racer,3.25,1969
+Easy Rider,3.25,1969
+Goodbye Columbus,3.0,1969
+Love Is Colder Than Death,2.75,1969
+Marooned,3.0,1969
+Medium Cool,3.0,1969
+Mississippi Mermaid,3.25,1969
+Oh What A Lovely War,2.75,1969
+Once Upon A Time in The West,3.75,1969
+Putney Swope,1.75,1969
+Simon Of The Desert,3.25,1969
+Stolen Kisses,3.25,1969
+Support Your Local Sherrif,3.0,1969
+Sweet Charity,2.5,1969
+Take the Money and Run,3.0,1969
+The Good Guys And The Bad Guys,2.75,1969
+The Illustrated Man,2.25,1969
+The Italian Job,2.75,1969
+The Reivers,3.0,1969
+The Wild Bunch,4.0,1969
+"They Shoot Horses, Don't They?",3.5,1969
+Those Daring Young Men in Their Jaunty Jalopies,2.75,1969
+Winning,2.75,1969
+Young Billy Young,2.5,1969
+2001,3.5,1968
+Belle De Jour,3.5,1968
+Bullitt,3.25,1968
+Charly,3.25,1968
+Chitty Chitty Bang Bang,3.0,1968
+Firecreek,2.75,1968
+Hang Em High,2.75,1968
+Monterey Pop,3.25,1968
+Planet Of The Apes,2.5,1968
+Play Dirty,2.75,1968
+"Rachel, Rachel",2.75,1968
+Shame,3.5,1968
+Targets,3.25,1968
+The Bride Wore Black,3.75,1968
+The Devil's Brigade,2.5,1968
+The Fireman's Ball,3.5,1968
+The Love Bug,3.0,1968
+The Odd Couple,3.0,1968
+The Producers,3.75,1968
+The Secret War Of Harry Frigg,2.75,1968
+The Swimmer,3.0,1968
+The Thomas Crown Affair,2.25,1968
+Where Eagles Dare,3.25,1968
+Where Were You When The Lights Went Out?,2.75,1968
+Wild In The Streets,2.25,1968
+With Six You Get Eggroll,2.5,1968
+A Fistful Of Dollars,3.5,1967
+Bedazzled,3.25,1967
+Bonnie and Clyde,4.0,1967
+Cool Hand Luke,3.75,1967
+"Divorce, American Style",3.0,1967
+Don't Look Back,3.0,1967
+El Dorado,3.25,1967
+Enter Laughing,3.25,1967
+Fitzwilly,2.75,1967
+For A Few Dollars More,3.25,1967
+Guess Who's Coming to Dinner,3.5,1967
+Hot Rods To Hell,1.5,1967
+Hour Of The Gun,2.5,1967
+How To Succeed in Business Without Really Trying,3.25,1967
+In Like Flint,2.75,1967
+In The Heat of the Night,4.0,1967
+King Of Hearts,3.5,1967
+La Collectioneuse,2.75,1967
+La Vie De Chateau,3.25,1967
+Le Samourai,3.5,1967
+Point Blank,3.5,1967
+The Battle Of Algiers,4.0,1967
+The Busy Body,2.5,1967
+The Flim Flam Man,3.0,1967
+"The Good, The Bad Sand The Ugly",4.0,1967
+The Graduate,3.75,1967
+The President's Analyst,3.25,1967
+The Two Of Us,3.5,1967
+Thoroughly Modern Millie,3.0,1967
+To Sir With Love,3.25,1967
+Two For The Road,3.5,1967
+Up the Down Staircase,2.75,1967
+Wait Until Dark,3.5,1967
+You Only Live Twice,3.25,1967
+A Big Hand For The Little Lady,2.5,1966
+A Man And A Woman,3.5,1966
+A Man For All Seasons,2.75,1966
+Au Hasard Balthazar,3.0,1966
+Blow-Up,3.5,1966
+Born Free,3.25,1966
+Closely Watched Trains,3.25,1966
+Duel At Diablo,2.75,1966
+Farenheight 451,3.25,1966
+"Follow Me, Boys",2.75,1966
+Funeral In Berlin,3.25,1966
+Georgy zGirl,2.75,1966
+Grand Prix,3.25,1966
+Harper,2.5,1966
+Hawaii,2.75,1966
+How To Steal A  Million,3.5,1966
+"Lt Robinson Crusoe, USN",2.25,1966
+Masculin-Feminin,3.0,1966
+Our Man Flint,2.75,1966
+Paddle To The Sea,3.5,1966
+Persona,3.5,1966
+The Blue Max,3.0,1966
+The Chase,2.75,1966
+The Endless Summer,3.0,1966
+The Fortune Cookie,3.5,1966
+The Naked Prey,3.25,1966
+The Professionals,3.5,1966
+The Russians Are Coming ..,3.25,1966
+The Sand Pebbles,3.5,1966
+Tokyo Drifter,3.0,1966
+Tokyo Olympiad,3.25,1966
+Torn Curtain,3.25,1966
+"Walk, Don't Run",3.5,1966
+"What Did You Do In The War, Daddy",3.0,1966
+36 Hours,3.0,1965
+A High Wind In Jamaica,2.25,1965
+Alphaville,2.5,1965
+Billie,2.75,1965
+Cat Ballou,3.25,1965
+Dear Brigette,2.5,1965
+Dr. Zhivago,3.0,1965
+Having A Wild Weekend,2.0,1965
+Help,3.25,1965
+How To Murder Your Wife,1.0,1965
+I Am Cuba,3.0,1965
+Lord Jim,3.5,1965
+None But The Brave,2.5,1965
+Operation Crossbow,3.25,1965
+Samurai Spy,3.5,1965
+Sword Of The Beast,3.25,1965
+That Darn Cat,3.0,1965
+The Art Of Love,3.5,1965
+The Cincinnati Kid,3.5,1965
+The Flight Of The Phoenix,3.0,1965
+The Great Race,3.0,1965
+The Satan Bug,2.5,1965
+The Sons of Katie Elder,2.75,1965
+The Sound Of Music,3.5,1965
+The Spy Who Came In From The Cold,3.0,1965
+The Train,3.5,1965
+The Yellow Rolls Royce,3.0,1965
+Those Magnificant Men in Their Flying Machines,3.0,1965
+Thunderball,3.5,1965
+Viva Maria,2.5,1965
+Von Ryan's Express,3.0,1965
+A Hard Day's Night,3.25,1964
+A Shot in The Dark,2.75,1964
+Back Door To Hell,2.75,1964
+Band Of Outsiders,3.5,1964
+Bay Of Angels,3.25,1964
+Becket,3.0,1964
+Cheyenne Autumn,2.75,1964
+Contempt,3.5,1964
+Dr. Strangelove,3.75,1964
+Fail Safe,3.0,1964
+Father Goose,3.0,1964
+Goldfinger,3.5,1964
+Good Neighbor Sam,3.25,1964
+Man In The Middle,2.75,1964
+Man's Favorite Sport?,3.0,1964
+Marnie,3.0,1964
+Mary Poppins,3.75,1964
+My Fair Lady,3.75,1964
+Robinson Crusoe On Mars,2.25,1964
+Send Me No Flowers,3.0,1964
+Seven Days in May,3.5,1964
+Sex And The Single Girl,2.25,1964
+The Americanization Of Emily,3.5,1964
+The Incredible Mr. Limpett,2.5,1964
+The Killers,2.75,1964
+The Naked Kiss,3.0,1964
+The Pink Panther,2.5,1964
+The Three Lives of Thomasina,3.0,1964
+The Umbrellas Of Cherbourg,3.5,1964
+Topkapi,3.25,1964
+8 1/2,3.5,1963
+Billy Liar,3.25,1963
+Charade,3.5,1963
+Donovan's Reef,3.0,1963
+Dr. No,3.0,1963
+From Russia With Love,3.5,1963
+High and Low,3.5,1963
+How the West Was Won,2.5,1963
+Hud,3.5,1963
+Irma La Douce,2.25,1963
+It's a Mad ï¿½ World,3.5,1963
+Knife In The Water,3.5,1963
+Le Petit Soldat,3.0,1963
+Lilies of the Field,3.75,1963
+The Birds,3.5,1963
+The Great Escape,4.0,1963
+The Incredible Journey,3.0,1963
+The Mouse on the Moon,2.25,1963
+The Thrill of it All,3.5,1963
+The Ugly Dachsund,3.0,1963
+Tom Jones,3.25,1963
+Advise And Consent,3.75,1962
+Antoine And Colette,3.5,1962
+Cleo From 5 to 7,3.25,1962
+Days Of Wine And Roses,3.0,1962
+"Divorce, Italian Style",3.5,1962
+Hatari,3.5,1962
+Hell Is For Heroes,3.0,1962
+Jules And Jim,3.75,1962
+Lawrence of Arabia,4.0,1962
+Ride The High Country,3.5,1962
+Shoot The Piano Player,3.5,1962
+That Touch of Mink,3.0,1962
+The Birdman Of Alcatraz,3.25,1962
+The Exterminating Angel,3.0,1962
+The Loneliness Of The Long Distance Runner,3.25,1962
+The Man Who Shot Liberty Valance,3.75,1962
+The Manchurian Candidate,3.25,1962
+To Kill a Mockingbird,3.5,1962
+Viridiana,3.5,1962
+101 Dalmatians,3.5,1961
+A Woman Is A Woman,3.5,1961
+Blast Of Silence,3.25,1961
+Breakfast at Tiffanys,3.5,1961
+Breathless,3.25,1961
+La Dolce Vita,3.25,1961
+L'Avventura,3.5,1961
+Lola,3.25,1961
+Lover Come Back,2.75,1961
+"One, Two, Three",,1961
+Raisin in the Sun,3.5,1961
+The Absent Minded Professor,3.0,1961
+The Guns of Navarone,3.5,1961
+The Hustler,4.0,1961
+The Misfits,2.75,1961
+The Parent Trap,2.75,1961
+Yojimbo,3.5,1961
+Big Deal On Madonna Street,3.25,1960
+Classe Tous Risques,3.0,1960
+Hiroshima Mon Amour,3.75,1960
+Inherit The Wind,3.5,1960
+Les Bonnes Femmes,3.0,1960
+Never On Sunday,3.25,1960
+Our Man In Havana,3.25,1960
+Psycho,3.75,1960
+Saturday Night And Sunday Morning,3.75,1960
+The Alamo,2.0,1960
+The Apartment,3.5,1960
+The Entertainer,3.25,1960
+The Grass Is Greener,3.0,1960
+The Hidden Fortress,3.75,1960
+The Magnificent Seven,3.75,1960
+The Sundowners,3.0,1960
+Tunes Of Glory,3.5,1960
+Anatomy of a Murder,3.5,1959
+Black Orpheus,3.5,1959
+Don't Give Up The Ship,2.5,1959
+Imitation of Life,3.25,1959
+North By Northwest,4.0,1959
+On The Beach,3.5,1959
+Operation Petticoat,3.0,1959
+Pickpocket,3.0,1959
+Plan 8 From Outer Space,1.0,1959
+Rio Bravo,2.75,1959
+Some Like it Hot,3.75,1959
+The 400 Blows,3.75,1959
+The Mouse That Roared,3.25,1959
+The Young Philadelphians,2.5,1959
+Touchez Pas Au Grisbi,3.75,1959
+Up Periscope,3.0,1959
+Wild Strawberries,3.75,1959
+Elevator To The Gallows,3.5,1958
+Houseboat,2.5,1958
+Indiscreet,3.0,1958
+Man Of The West,3.25,1958
+Naughty Girl,2.75,1958
+"Run Silent, Run Deep",3.25,1958
+Some Came Running,3.5,1958
+The Defiant Ones,3.5,1958
+The Horse's Mouth,3.0,1958
+Touch Of Evil,3.75,1958
+Vertigo,4.0,1958
+12 Angry Men,3.75,1957
+3:10 To Yuma,3.5,1957
+A Man Escaped,3.25,1957
+And God Created Woman,3.0,1957
+Desk Set,2.75,1957
+Forty Guns,3.25,1957
+Funny Face,2.5,1957
+Heaven Knows Mr. Allison,3.0,1957
+Kanal,3.25,1957
+My Man Godfrey,2.5,1957
+Night Passage,2.5,1957
+Nights Of Cabiria,3.0,1957
+Paths of Glory,3.5,1957
+Sweet Smell Of Success,3.75,1957
+The Bridge On the River Kwai,3.75,1957
+The Burmese Harp,3.5,1957
+The Spirit Of Saint Louis,3.25,1957
+The Tin Star,3.5,1957
+The Wings Of Eagles,2.75,1957
+Throne Of Blood,2.75,1957
+Time Limit,3.0,1957
+Witness For The Prosecution,3.75,1957
+A Kid For Two Farthings,3.25,1956
+A King And 4 Queens,2.5,1956
+Bob Le Flambeur,3.5,1956
+Forbidden Planet,3.25,1956
+Ikiru,3.75,1956
+Jubal,2.5,1956
+La Strada,3.5,1956
+Lust For Life,2.75,1956
+Mr. Arkadin,2.75,1956
+Rififi,3.5,1956
+Seven Samurai,4.0,1956
+The Killing,3.25,1956
+The King And I,3.25,1956
+The Ladykillers,3.25,1956
+The Last Wagon,3.25,1956
+The Man in The Gray Flannel Suit,3.5,1956
+The Man Who Knew Too Much,3.75,1956
+The Man Who Never Was,3.25,1956
+The Searchers,4.0,1956
+The Ten Commandments,3.0,1956
+The White Sheik,3.25,1956
+The Wrong Man,2.75,1956
+Trapeze,2.75,1956
+A Generation,3.5,1955
+Bad Day at Black Rock,3.5,1955
+Guys And Dolls,3.5,1955
+Illegal,2.75,1955
+Marty,3.5,1955
+Mister Roberts,3.5,1955
+Night And Fog,3.5,1955
+Night Of The Hunter,3.75,1955
+Picnic,3.0,1955
+Rear Window,4.0,1955
+Rebel Without A Cause,3.25,1955
+The Blackboard Jungle,3.0,1955
+The Court-Marshall Of Billy Mitchell,2.75,1955
+The Desperate Hours,3.0,1955
+The Far Country,3.0,1955
+The Seven Year Itch,3.5,1955
+The Trouble With Harry,3.0,1955
+The Wages Of Fear,3.25,1955
+To Catch a Thief,3.5,1955
+Umberto D,3.5,1955
+We're No Angels,3.25,1955
+Beat The Devil,2.75,1954
+Brigadoon,3.0,1954
+Carmen Jones,3.5,1954
+Crime Wave,2.75,1954
+Dial M for Murder,3.25,1954
+Diary Of A Country Priest,3.25,1954
+Executive Suite,3.25,1954
+Godzilla,3.5,1954
+Hell And High Water,3.0,1954
+Hobson's Choice,3.5,1954
+Johnny Guitar,3.0,1954
+M. Hulot's Holiday,3.0,1954
+On The Waterfront,4.0,1954
+Robinson Crusoe,3.0,1954
+Sabrina,3.0,1954
+Terminal Station,3.25,1954
+The Bridges at Toko Ri,3.5,1954
+The Earrings Of Madame De,3.5,1954
+The Maggie,3.0,1954
+Ugetsu,3.5,1954
+From Here To Eternity,3.75,1953
+Gentleman Prefer Blondes,2.75,1953
+I Confess,2.75,1953
+Jeopardy,2.75,1953
+Mogambo,2.5,1953
+Pickup On South Street,3.5,1953
+Roman Holiday,3.5,1953
+Shane,4.0,1953
+Stalag 17,3.75,1953
+The Big Heat,3.0,1953
+The Captain's Paradise,3.25,1953
+The Desert Rats,2.75,1953
+The Naked Spur,3.5,1953
+The Titfield Thunderbolt,3.0,1953
+The Wild One,3.5,1953
+Tokyo Story,3.75,1953
+Bend Of The River,3.0,1952
+Casque D'or,3.5,1952
+Forbidden Games,3.25,1952
+High Noon,4.0,1952
+Ivanhoe,2.0,1952
+Monkey Business,3.0,1952
+On Dangerous Ground,3.5,1952
+Pat and Mike,3.0,1952
+Singin In the Rain,4.0,1952
+The African Queen,4.0,1952
+The Bad And The Beautiful,3.5,1952
+The Crimson Pirate,3.25,1952
+The Man In The White Suit,2.75,1952
+A Christmas Carol,3.5,1951
+Ace In The Hole,3.5,1951
+An American in Paris,3.5,1951
+Captain Horatio Hornblower,3.25,1951
+Fourteen Hours,3.25,1951
+Rashomon,3.75,1951
+Siroco,2.5,1951
+Strangers on a Train,3.75,1951
+The Day The Earth Stood Still,3.5,1951
+The Desert Fox,2.25,1951
+The Lavender Hill Mob,3.25,1951
+The Narrow Margin,3.0,1951
+The Racket,3.0,1951
+A Run For Your Money,2.75,1950
+All About Eve,3.75,1950
+Broken Arrow,3.25,1950
+D.O.A.,3.5,1950
+Father Of The Bride,3.0,1950
+Gun Crazy,3.0,1950
+Harvey,3.5,1950
+In A Lonely Place,3.5,1950
+Kind Hearts and Coronets,3.5,1950
+Mystery Street,3.25,1950
+Night And The City,3.5,1950
+Rio Grande,3.0,1950
+Side Street,3.0,1950
+Sunset Boulevard,3.75,1950
+The Asphalt Jungle,3.25,1950
+The Baron Of Arizona,3.0,1950
+The Gunfighter,3.5,1950
+The Last Holiday,3.25,1950
+To Please A Lady,2.25,1950
+When Wille Comes Marching Home,2.75,1950
+Where Danger Lives,2.5,1950
+Where The Sidewalk Ends,3.0,1950
+Winchester 73,3.25,1950
+Adam's Rib,4.0,1949
+Border Incident,2.75,1949
+I Was A Male War Bride,3.5,1949
+On The Town,2.75,1949
+Passport To Pimlico,3.0,1949
+She Wore A Yellow Ribbon,3.0,1949
+Stray Dog,3.25,1949
+Tension,3.5,1949
+The Bicycle Thief,4.0,1949
+The Big Steal,3.5,1949
+The Fallen Idol,4.0,1949
+The Fountainhead,2.5,1949
+The Third Man,4.0,1949
+They Live By Night,3.0,1949
+Twelve O'Clock High,3.75,1949
+Whiskey Galore,2.75,1949
+White Heat,3.5,1949
+3 Godfathers,3.25,1948
+Abbott and Costello Meet Frankenstein,3.0,1948
+Act Of Violence,3.25,1948
+Drunken Angel,3.5,1948
+Fort Apache,3.5,1948
+Key Largo,3.5,1948
+Mr Blandings Builds his Dream House,2.5,1948
+Red River,3.5,1948
+Rope,2.75,1948
+The Naked City,3.0,1948
+The Red Shoes,3.5,1948
+The Treasure Of Sierra Madre,3.5,1948
+Unfaithfully Yours,3.0,1948
+Black Narcissus,3.5,1947
+Brute Force,3.25,1947
+Crossfire,3.25,1947
+Dark Passage,2.75,1947
+Gentleman's Agreement,3.25,1947
+Great Expectations,3.5,1947
+Green For Danger,3.25,1947
+I Know Where I'm Going,3.5,1947
+Kiss Of Death,2.5,1947
+Lady In The Lake,2.5,1947
+Odd Man Out,3.25,1947
+Out Of The Past,3.75,1947
+Railroaded,2.75,1947
+The Ghost And Mrs. Muir,3.25,1947
+The Long Night,2.75,1947
+The Paradine Case,2.5,1947
+The Sin Of Harold Diddlebock,3.0,1947
+Brief Encounter,3.5,1946
+Gilda,3.25,1946
+Henry V,3.5,1946
+It's A Wonderful Life,3.75,1946
+My Darling Clementine,3.75,1946
+Notorious,4.0,1946
+Open City,3.25,1946
+Stairway To Heaven,3.25,1946
+The Best Years of Our Lives,4.0,1946
+The Big Sleep,3.75,1946
+The Killers,3.25,1946
+A Walk In The Sun,2.75,1945
+Detour,3.0,1945
+Dillinger,2.75,1945
+Spellbound,3.0,1945
+The Clock,2.75,1945
+The Life and Death Of Colonel Blimp,3.75,1945
+The Lost Weekend,2.0,1945
+They Were Expendable,3.5,1945
+A Canterbury Tale,3.25,1944
+Arsenic and Old Lace,3.25,1944
+Double Indemnity,4.0,1944
+Gaslight,3.5,1944
+Going My Way,3.0,1944
+Hail The Conquering Hero,3.25,1944
+Ivan The Terrible Part I,3.0,1944
+Laura,4.0,1944
+Lifeboat,3.25,1944
+Meet Me In Saint Louis,3.0,1944
+Miracle at Morgan's Creek,3.5,1944
+Murder My Sweet,2.75,1944
+Passage To Marseille,2.75,1944
+To Have and Have Not,3.0,1944
+Casablanca,4.0,1943
+Crash Dive,3.5,1943
+Hangmen Also Die,3.0,1943
+Heaven Can Wait,3.5,1943
+Le Corbeau,3.25,1943
+Shadow Of A Doubt,3.0,1943
+The Human Comedy,3.5,1943
+The Ox-Bow Incident,3.25,1943
+49th Parallel,3.5,1942
+For Me And My Gal,2.75,1942
+In Which We Serve,3.25,1942
+Mrs. Miniver,3.5,1942
+Pride Of The Yankees,3.25,1942
+Random Harvest,3.25,1942
+Saboteur,2.5,1942
+The Black Swan,2.75,1942
+The Man Who Came To Dinner,3.5,1942
+The Palm Beach Story,3.75,1942
+The Talk Of The Town,3.25,1942
+To Be Or Not To Be,3.5,1942
+Woman of the Year,3.5,1942
+Yankee Doodle Dandy,3.25,1942
+Across The Pacific,2.5,1941
+All Through The Night,2.75,1941
+Ball Of Fire,3.75,1941
+Citizen Kane,4.0,1941
+Dive Bomber,3.0,1941
+Here Comes Mr. Jordan,3.5,1941
+High Sierra,2.5,1941
+How Green Was My Valley,3.5,1941
+Major Barbara,3.25,1941
+Man Hunt,3.25,1941
+Meet John Doe,3.0,1941
+Sargeant York,3.5,1941
+Sullivan's Travels,3.5,1941
+Suspicion,2.75,1941
+The Lady Eve,3.75,1941
+The Maltese Falcon,4.0,1941
+The Wolfman,2.5,1941
+Foreign Correspondent,3.25,1940
+His Girl Friday,3.5,1940
+My Favorite Wife,3.5,1940
+My Little Chickadee,2.75,1940
+Night Train To Munich,3.25,1940
+Pinocchio,3.5,1940
+The  Great McGinty,3.0,1940
+The Bank Dick,3.0,1940
+The Grapes Of Wrath,3.75,1940
+The Long Voyage Home,3.5,1940
+The Philadelphia Story,3.75,1940
+The Return Of Frank James,3.0,1940
+The Sea Hawk,3.25,1940
+The Shop Around The Corner,3.5,1940
+The Thief Of Bagdad,2.5,1940
+The Westerner,3.0,1940
+They Drive By Night,2.75,1940
+42nd Street,3.25,1930
+A Day At The Races,3.25,1930
+A Night at The Opera,3.5,1930
+A Slight Case Of Murder,3.0,1930
+After The Thin Man,3.0,1930
+Alexander Nevsky,3.25,1930
+All Quiet On The Western Front,3.5,1930
+Angels With Dirty Faces,3.75,1930
+Animal Crackers,3.0,1930
+Anna Christie,2.75,1930
+Annie Oakley,3.0,1930
+Another Thin Man,3.0,1930
+Beau Geste,3.5,1930
+Boudu Saved From Drowning,3.25,1930
+Bringing Up Baby,4.0,1930
+Bullets Over Ballots,3.0,1930
+Captain Blood,3.5,1930
+Captains Courageous,3.5,1930
+Ceiling Zero,3.0,1930
+Cimarron,2.75,1930
+City Lights,3.0,1930
+Dames,2.5,1930
+Design For Living,2.75,1930
+Destry Rides Again,2.75,1930
+Doctor Bull,3.25,1930
+Dracula,2.75,1930
+Duck Soup,3.25,1930
+Each Dawn I Die,3.25,1930
+Ecstasy,2.75,1930
+Footlight Parade,3.0,1930
+Frankenstein,3.25,1930
+Fury,2.75,1930
+Gmen,2.5,1930
+Gold Diggers of 1933,3.5,1930
+Gold Diggers Of 1935,3.0,1930
+Grand Hotel,3.75,1930
+Grand Illusion,4.0,1930
+Gunga Din,3.0,1930
+Holiday,3.0,1930
+I Am A Fugutve From A Chain Gang,3.5,1930
+I'm No Angel,2.5,1930
+It Happened One Night,4.0,1930
+Judge Priest,2.75,1930
+King Kong,3.75,1930
+La Bete Humaine,3.5,1930
+Las Hurdes,2.75,1930
+L'Atlante,3.25,1930
+Libeled Lady,2.75,1930
+Little Caesar,3.25,1930
+Lost Horizon,3.5,1930
+M,3.5,1930
+Man Of The World,2.5,1930
+Mata Hari,3.25,1930
+Midnight,3.0,1930
+Mr. Deeds Goes to Town,3.5,1930
+Mr. Smith Goes to Washington,3.75,1930
+Mutiny On The Bounty,3.5,1930
+My Man Godfrey,3.5,1930
+Of Mice And Men,3.5,1930
+Only Angels Have Wings,3.75,1930
+Pepe Le Moko,3.5,1930
+Port Of Shadows,3.5,1930
+Public Enemy,3.25,1930
+Rules Of The Game,3.5,1930
+Sabotage,2.25,1930
+San Quentin,2.75,1930
+Scarface,3.5,1930
+She Done Him Wrong,2.75,1930
+Stage Door,3.0,1930
+Stagecoach,4.0,1930
+Steamboat Round The Bend,3.0,1930
+SwingTime,3.0,1930
+The 39 Steps,4.0,1930
+The Adventures of Robin Hood,3.5,1930
+The Awful Truth,3.5,1930
+The Blood Of A Poet,3.25,1930
+The Blue Angel,3.0,1930
+The Bride Of Frankenstein,3.0,1930
+The Charge Of The Light Brigade,3.0,1930
+The Dawn Patrol,3.25,1930
+The Edge Of The World,2.75,1930
+The Informer,3.25,1930
+The Invisible Man,3.5,1930
+The Lady Vanishes,3.25,1930
+The Lost Patrol,2.75,1930
+The Maltese Falcom,2.5,1930
+The Most Dangerous Game,3.5,1930
+The Petrified Forest,3.25,1930
+The Prince And The Pauper,3.25,1930
+The Prisoner Of Zenda,3.5,1930
+The Roaring Twenties,3.5,1930
+The Smiling Lieutenant,2.75,1930
+The Thin Man,4.0,1930
+The Wizard of Oz,3.5,1930
+Top Hat,3.0,1930
+Topper,3.5,1930
+Trouble In Paradise,4.0,1930
+True Confession,2.5,1930
+Twentieth Century,3.0,1930
+We're Not Dressing,2.25,1930
+You Canï¿½t Take It With You,3.25,1930
+Young Mr. Lincoln,3.25,1930
+Battleship Potemkin,4.0,1920
+Greed,3.5,1920
+Metropolis,3.5,1920
+Nanook Of The North,3.25,1920
+Safety Last,3.75,1920
+"Sherlock, Jr.",3.25,1920
+Steamboat Bill Jr.,3.5,1920
+Sunrise,3.75,1920
+The Cocoanuts,2.5,1920
+The Freshman,3.5,1920
+The General,4.0,1920
+The Kid Brother,3.5,1920
+The Navigator,3.0,1920
+Un Chien Andalou,3.0,1920
+44 Inch Chest,2.75,2010
