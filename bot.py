@@ -90,6 +90,10 @@ async def test(ctx):
 async def bandcamp(ctx):
     await ctx.send('jetsweep30.bandcamp.com')
 
+@bot.command(name='github')
+async def github(ctx):
+    await ctx.send('https://github.com/jetsweep30/russell_westbot')
+
 @bot.command(name='add')
 async def add(ctx):
 

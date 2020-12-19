@@ -14,7 +14,7 @@ def download_track(url):
             'preferredquality': '192'}],
       'postprocessor-args' : '-ss "30"',
       'prefer_ffmpeg': True,
-      'outtmpl': 'soundboard_staging/staging.',    # name the file the ID of the video
+      'outtmpl': 'soundboard/staging/staging.',    # name the file the ID of the video
       'noplaylist' : True,    # only download single song, not playlist
     }  # save file as the YouTube ID
     with youtube_dl.YoutubeDL(options) as ydl:
