@@ -30,14 +30,14 @@ bot = commands.Bot(
     # set up the bot
     irc_token=token,
     client_id=client_id,
-    nick='jetsweep30',
+    nick='russell_westbot',
     prefix='!',
     initial_channels=['jetsweep30']
 )
 
 
 def memoize_greeting(f):
-    memo = {}
+    memo = {'russell_westbot': 1}
     def helper(x):
         if x.author.name not in memo:
             memo[x.author.name] = 1
@@ -52,8 +52,8 @@ def greeting(ctx):
         playsound('/Users/jletienne/russell_westbot/soundboard/{}.mp3'.format(ctx.author.name.lower()))
         return ctx.channel.send(greeting)
     except:
-        #playsound('/Users/jletienne/russell_westbot/soundboard/quicksand.mp3')
-        return ctx.channel.send('welcome to the stream, would you like a custom theme song?')
+        playsound('/Users/jletienne/russell_westbot/soundboard/quicksand.mp3')
+        return ctx.channel.send('welcome to the stream {}! you should !add a custom theme song'.format(ctx.author.name))
 
 
 
