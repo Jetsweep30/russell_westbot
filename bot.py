@@ -11,6 +11,8 @@ import pandas as pd
 import sound_effect
 
 import time
+
+import random
 # create the bot account
 # pass parameters into the bot
 # set up movies
@@ -68,12 +70,14 @@ async def event_ready():
 @bot.event
 async def event_message(ctx):
     'Runs every time a message is sent in chat.'
-    print(ctx)
+    #print(ctx)
     #make sure the bot ignores itself and the streamer
     #if ctx.author.name.lower() == 'jetsweep30':
        # return
-
+    print(ctx.content)
+    print(ctx.content[0])
     #await ctx.channel.send(ctx.content)
+
     await bot.handle_commands(ctx)
 
     '''if 'hello' in ctx.content.lower():'''
@@ -81,6 +85,12 @@ async def event_message(ctx):
         await greeting(ctx)
     except:
         pass
+
+    if ctx.content[0] == '!':
+        try:
+            await playsound('/Users/jletienne/russell_westbot/soundboard/{}.mp3'.format(ctx.content[1:].lower()))
+        except:
+            pass
 
 @bot.command(name='test')
 async def test(ctx):
@@ -100,7 +110,7 @@ async def add(ctx):
     sound_info = ctx.content.split(" ")
     sound_name = sound_info[1].lower()
 
-    if os.path.isfile('./soundboard/{}.mp3'.format(sound_name)):
+    if os.path.isfile('./soundboard/{}.mp3'.format(sound_name)): #1 == 0
         await ctx.send('file "{}.mp3" already exists, use !addf to overwrite'.format(sound_name))
     else:
         try:
@@ -180,30 +190,17 @@ async def sound(ctx):
         time.sleep(.7) #it makes it seem like I looked lol
         await ctx.channel.send('i couldn\'t find that sound')
 
-@bot.command(name='zenefits')
-async def zenefits(ctx):
-    await playsound('/Users/jletienne/Music/Logic/soundboard/jetsweep30_zenefits.wav')
 
 
-@bot.command(name='go')
-async def go(ctx):
-    await playsound('/Users/jletienne/Music/Logic/soundboard/dababy_bop.wav')
+@bot.command(name='rgif')
+async def rgif(ctx):
+    gifs = ['bullet', 'fail',  'perfect', 'steph', 'check', 'jwill', 'marshawn', 'salsa', 'vince', 'davante', 'lavine', 'obj', 'shake', 'dougie', 'lebron', 'over', 'shimmy']
+    await ctx.channel.send('!' + random.choice(gifs))
 
-@bot.command(name='go2')
-async def go2(ctx):
-    await playsound('/Users/jletienne/Music/Logic/soundboard/dababy_letsgo_3.wav')
 
-@bot.command(name='go3')
-async def go3(ctx):
-    await playsound('/Users/jletienne/Music/Logic/soundboard/dababy_letsgo_2.wav')
 
-@bot.command(name='hot')
-async def hot(ctx):
-    await playsound('/Users/jletienne/Music/Logic/soundboard/dababy_hot.wav')
 
-@bot.command(name='huh')
-async def huh(ctx):
-    await playsound('/Users/jletienne/Music/Logic/soundboard/dababy_huh.wav')
+
 
 def request_movie(ctx):
     r = requests.get('https://raw.githubusercontent.com/mastercbf/waldy/master/dicksflicks.json')
