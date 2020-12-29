@@ -38,14 +38,17 @@ bot = commands.Bot(
 )
 
 
+mods = {'russell_westbot': 1, 'jetsweep30': 1, 'streamlabs': 1}
+
 def memoize_greeting(f):
-    memo = {'russell_westbot': 1}
+    memo = {'russell_westbot': 1, 'jetsweep30': 1, 'streamlabs': 1}
     def helper(x):
         if x.author.name not in memo:
             memo[x.author.name] = 1
             return f(x)
         return None
     return helper
+
 
 @memoize_greeting
 def greeting(ctx):
@@ -74,11 +77,13 @@ async def event_message(ctx):
     #make sure the bot ignores itself and the streamer
     #if ctx.author.name.lower() == 'jetsweep30':
        # return
-    print(ctx.content)
-    print(ctx.content[0])
-    #await ctx.channel.send(ctx.content)
 
-    await bot.handle_commands(ctx)
+
+    print(f'{ctx.author.name}: {ctx.content}\n')
+    try:
+        await bot.handle_commands(ctx)
+    except:
+        pass
 
     '''if 'hello' in ctx.content.lower():'''
     try:
@@ -86,6 +91,7 @@ async def event_message(ctx):
     except:
         pass
 
+    #playsound if it exists
     if ctx.content[0] == '!':
         try:
             await playsound('/Users/jletienne/russell_westbot/soundboard/{}.mp3'.format(ctx.content[1:].lower()))
@@ -110,36 +116,14 @@ async def add(ctx):
     sound_info = ctx.content.split(" ")
     sound_name = sound_info[1].lower()
 
-    if os.path.isfile('./soundboard/{}.mp3'.format(sound_name)): #1 == 0
+    #should people be able to overwrite sounds?
+    '''if os.path.isfile('./soundboard/{}.mp3'.format(sound_name)): #1 == 0
         await ctx.send('file "{}.mp3" already exists, use !addf to overwrite'.format(sound_name))
-    else:
-        try:
-            sound_url = sound_info[2]
-            sound_start = sound_info[3]
-            sound_volume = .06
-            try:
-                sound_length = min(int(sound_info[4]), 7)
-            except:
-                sound_length = 7
-            sound_effect.do_all(name=sound_name, url=sound_url, start=sound_start, length=sound_length, volume=sound_volume)
-            await ctx.send('nice! thanks for adding "!sound {}"'.format(sound_name))
-            playsound('/Users/jletienne/russell_westbot/soundboard/{}.mp3'.format(sound_name))
-        except:
-            await ctx.send('didn\'t work try this format...')
-            time.sleep(1.2)
-            await ctx.send('!add [name] [url] [start_time] [length]')
-            time.sleep(1.3)
-            await ctx.send('for example... !add jets 7sllUioMHJY 1:03 7')
-
-@bot.command(name='addf')
-async def addf(ctx):
-
+    else:'''
     try:
-        sound_info = ctx.content.split(" ")
-        sound_name = sound_info[1].lower()
         sound_url = sound_info[2]
         sound_start = sound_info[3]
-        sound_volume = .06
+        sound_volume = .12
         try:
             sound_length = min(int(sound_info[4]), 7)
         except:
@@ -154,52 +138,49 @@ async def addf(ctx):
         time.sleep(1.3)
         await ctx.send('for example... !addf jets 7sllUioMHJY 1:03 7')
 
-@bot.command(name='addv')
-async def addv(ctx):
-    try:
-        sound_info = ctx.content.split(" ")
-        sound_name = sound_info[1].lower()
-        sound_url = sound_info[2]
-        sound_start = sound_info[3]
-        if float(sound_info[5]) > 1:
-            sound_volume = float(sound_info[5])/100
-        else:
-            sound_volume = float(sound_info[5])
-        try:
-            sound_length = int(sound_info[4])
-        except:
-            sound_length = 7
-        sound_effect.do_all(name=sound_name, url=sound_url, start=sound_start, length=sound_length, volume=sound_volume)
-        await ctx.send('nice! thanks for adding "!sound {}"'.format(sound_name))
-        playsound('/Users/jletienne/russell_westbot/soundboard/{}.mp3'.format(sound_name))
-    except:
-        await ctx.send('didn\'t work try this format...')
-        time.sleep(1.2)
-        await ctx.send('!addf [name] [url] [start_time] [length]')
-        time.sleep(1.3)
-        await ctx.send('for example... !addf jets 7sllUioMHJY 1:03 7')
 
 
-@bot.command(name='sound')
-async def sound(ctx):
-    sound_info = ctx.content.split(" ")
-    sound_name = sound_info[1].lower()
-    try:
-        playsound('/Users/jletienne/russell_westbot/soundboard/{}.mp3'.format(sound_name))
-    except:
-        time.sleep(.7) #it makes it seem like I looked lol
-        await ctx.channel.send('i couldn\'t find that sound')
-
-
-
-@bot.command(name='rgif')
-async def rgif(ctx):
+# play a random gyfe from the triggerfyre obs intergration
+@bot.command(name='gif')
+async def gif(ctx):
     gifs = ['bullet', 'fail',  'perfect', 'steph', 'check', 'jwill', 'marshawn', 'salsa', 'vince', 'davante', 'lavine', 'obj', 'shake', 'dougie', 'lebron', 'over', 'shimmy']
     await ctx.channel.send('!' + random.choice(gifs))
 
+# play a random sound from the /soundboard
+@bot.command(name='sound')
+async def sound(ctx):
+    sounds = [sound[:-4] for sound in os.listdir('./soundboard') if sound[-4:] == '.mp3']
+    await ctx.channel.send('!' + random.choice(sounds))
 
 
+# alerts
+@bot.command(name='alert')
+async def alert(ctx):
+    alert_info = ctx.content.split(" ")
+    alert_type = alert_info[1].lower()[:-1]
 
+    if ctx.author.name in mods:
+        try:
+            sounds = [sound[:-4] for sound in os.listdir('./soundboard/alerts/{}'.format(alert_type)) if sound[-4:] == '.mp3']
+
+            await playsound('./soundboard/alerts/{}/{}.mp3'.format(alert_type, random.choice(sounds)))
+        except:
+            pass
+    else:
+        pass
+
+# play a random sound from the /soundboard
+@bot.command(name='sound_list')
+async def sound_list(ctx):
+    sounds = [sound[:-4] for sound in os.listdir('./soundboard') if sound[-4:] == '.mp3']
+    sounds.sort()
+    await ctx.channel.send(', '.join(sounds))
+
+@bot.command(name='gif_list')
+async def gif_list(ctx):
+    gifs = [gif[:-4] for gif in os.listdir('./gifs') if gif[-4:] == '.gif']
+    gifs.sort()
+    await ctx.channel.send(', '.join(gifs))
 
 
 def request_movie(ctx):
@@ -224,6 +205,7 @@ def search_movie(ctx, film):
     recommendation =  'You should watch {} ({}), I gave it a {}/4!'.format(requested_film['Film'], requested_film['Year'], requested_film['Rating'])
     return ctx.channel.send(recommendation)
 
+# recommend a movie based on richie's suggestions
 @bot.command(name='movies')
 async def movies(ctx):
 

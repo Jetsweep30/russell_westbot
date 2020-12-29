@@ -3,7 +3,7 @@ import os
 #import sys
 
 
-def convert_track(start = 0, length = 7, output_name='default', output_volume=0.3):
+def convert_track(start = 0, length = 7, output_name='default', output_volume=0.12):
 
 
     command = f"ffmpeg -ss {start} -t {length} -i soundboard/staging/staging.mp3 -vn -ar 44100 -ac 2 -b:a 192k -filter_complex alimiter=level_in=1:level_out=1:limit={output_volume}:attack=7:release=100:level=disabled -y soundboard/{output_name}.mp3"
