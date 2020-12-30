@@ -129,7 +129,7 @@ async def add(ctx):
         except:
             sound_length = 7
         sound_effect.do_all(name=sound_name, url=sound_url, start=sound_start, length=sound_length, volume=sound_volume)
-        await ctx.send('nice! thanks for adding "!sound {}"'.format(sound_name))
+        await ctx.send('nice! thanks {} for adding "!sound {}"'.format(ctx.author.name, sound_name))
         playsound('/Users/jletienne/russell_westbot/soundboard/{}.mp3'.format(sound_name))
     except:
         await ctx.send('didn\'t work try this format...')
@@ -152,6 +152,8 @@ async def sound(ctx):
     sounds = [sound[:-4] for sound in os.listdir('./soundboard') if sound[-4:] == '.mp3']
     await ctx.channel.send('!' + random.choice(sounds))
 
+# fix the message so multiple things can happen
+'''async def play_the_sound(path):'''
 
 # alerts
 @bot.command(name='alert')

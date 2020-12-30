@@ -20,8 +20,8 @@ def download_track(url):
     with youtube_dl.YoutubeDL(options) as ydl:
         r = ydl.extract_info(url, download=False)
         #print(r)
-        print("%s uploaded by '%s', has %d views, %d likes, and dislikes" % (
-        r['title'], r['uploader'], r['view_count'], r['like_count']))
+        print("%s uploaded by '%s', has views,  likes, and dislikes" % (
+        r['title'], r['uploader']))#, r['view_count'], r['like_count']))
     return ydl.download([url])
 
 def do_all(url=None, name=None, start=None, length=None, volume=None):
