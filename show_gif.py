@@ -6,8 +6,11 @@ loop = asyncio.get_event_loop()
 ws = simpleobsws.obsws(host='127.0.0.1', port=4444, password='MYSecurePassword', loop=loop) # Every possible argument has been passed, but none are required. See lib code for defaults.
 
 async def make_request(gif_pic):
-    await ws.connect() # Make the connection to OBS-Websocket
-
+    try:
+        await ws.connect() # Make the connection to OBS-Websocket
+    except:
+        pass
+        
     sourceSettings = {'file': '/Users/jletienne/russell_westbot/gifs/{}.gif'.format(gif_pic), 'unload': True}
     data = {'sourceName':'Gif', 'sourceSettings': sourceSettings}
     result = await ws.call('SetSourceSettings', data)
