@@ -3,7 +3,10 @@ from twitchio.ext import commands
 from playsound import playsound
 from convert import get_gif_from_giphy
 from show_gif import make_request
+import csv
+fieldnames = ['message_datetime', 'message_author', 'message_content']
 
+from datetime import datetime
 
 import os.path
 
@@ -38,6 +41,10 @@ bot = commands.Bot(
     initial_channels=['jetsweep30']
 )
 
+
+with open('media/chat_history.csv', 'a', newline='') as csvfile:
+    spamwriter = csv.writer(csvfile, delimiter=',',
+                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
 
 mods = {'russell_westbot': 1, 'jetsweep30': 1, 'streamlabs': 1}
 
@@ -80,15 +87,23 @@ async def event_message(ctx):
        # return
 
 
-    print(f'{ctx.author.name}: {ctx.content}\n')
+    current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f'{current_datetime[-8:]} {ctx.author.name}: {ctx.content}\n')
+
+
+
+    with open('media/chat_history.csv', 'a', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writerow({'message_datetime': current_datetime, 'message_author': ctx.author.name, 'message_content': ctx.content})
+
+
     try:
-        await bot.handle_commands(ctx)
+        await greeting(ctx)
     except:
         pass
 
-    '''if 'hello' in ctx.content.lower():'''
     try:
-        await greeting(ctx)
+        await bot.handle_commands(ctx)
     except:
         pass
 
@@ -97,7 +112,7 @@ async def event_message(ctx):
         try:
             content = ctx.content[1:].lower()
             if  content in [gif[:-4] for gif in os.listdir('./gifs') if gif[-4:] == '.gif']:
-                return await make_request(gif_pic = content)
+                await make_request(gif_pic = content)
             else:
                 playsound('./soundboard/{}.mp3'.format(content))
         except:
@@ -120,6 +135,7 @@ async def github(ctx):
 @bot.command(name='add')
 async def add(ctx):
 
+    print('what up')
     sound_info = ctx.content.split(" ")
     sound_name = sound_info[1].lower()
 
@@ -129,7 +145,7 @@ async def add(ctx):
     else:'''
 
     sound_url = sound_info[2]
-
+    print('yes')
     #if it's a giphy download the gif
     if 'giphy.com' in sound_url:
         try:
@@ -144,6 +160,7 @@ async def add(ctx):
             await ctx.send('for example... !add jets https://giphy.com/gifs/moodman-TkqchactPDugBnOhWx')
 
     else:
+        print('please')
         try:
 
             sound_start = sound_info[3]

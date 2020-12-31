@@ -10,7 +10,6 @@ async def make_request(gif_pic):
         await ws.connect() # Make the connection to OBS-Websocket
     except:
         pass
-        
     sourceSettings = {'file': '/Users/jletienne/russell_westbot/gifs/{}.gif'.format(gif_pic), 'unload': True}
     data = {'sourceName':'Gif', 'sourceSettings': sourceSettings}
     result = await ws.call('SetSourceSettings', data)
