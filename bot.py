@@ -1,6 +1,7 @@
 import yaml
 from twitchio.ext import commands
 from playsound import playsound
+from convert import get_gif_from_giphy
 
 import os.path
 
@@ -54,10 +55,10 @@ def memoize_greeting(f):
 def greeting(ctx):
     greeting = 'hello {}'.format(ctx.author.name)
     try:
-        playsound('/Users/jletienne/russell_westbot/soundboard/{}.mp3'.format(ctx.author.name.lower()))
+        playsound('./soundboard/{}.mp3'.format(ctx.author.name.lower()))
         return ctx.channel.send(greeting)
     except:
-        playsound('/Users/jletienne/russell_westbot/soundboard/quicksand.mp3')
+        playsound('./soundboard/quicksand.mp3')
         return ctx.channel.send('welcome to the stream {}! you should !add a custom theme song'.format(ctx.author.name))
 
 
@@ -94,7 +95,7 @@ async def event_message(ctx):
     #playsound if it exists
     if ctx.content[0] == '!':
         try:
-            await playsound('/Users/jletienne/russell_westbot/soundboard/{}.mp3'.format(ctx.content[1:].lower()))
+            await playsound('./soundboard/{}.mp3'.format(ctx.content[1:].lower()))
         except:
             pass
 
@@ -120,27 +121,44 @@ async def add(ctx):
     '''if os.path.isfile('./soundboard/{}.mp3'.format(sound_name)): #1 == 0
         await ctx.send('file "{}.mp3" already exists, use !addf to overwrite'.format(sound_name))
     else:'''
-    try:
-        sound_url = sound_info[2]
-        sound_start = sound_info[3]
-        sound_volume = .12
+
+    sound_url = sound_info[2]
+
+    #if it's a giphy download the gif
+    if 'giphy.com' in sound_url:
         try:
-            sound_length = min(int(sound_info[4]), 7)
+            print('nice')
+            await get_gif_from_giphy(gif_url=sound_url, gif_name=sound_name)
+            await ctx.send('nice! thanks {} for adding "!sound {}"'.format(ctx.author.name, sound_name))
         except:
-            sound_length = 7
-        sound_effect.do_all(name=sound_name, url=sound_url, start=sound_start, length=sound_length, volume=sound_volume)
-        await ctx.send('nice! thanks {} for adding "!sound {}"'.format(ctx.author.name, sound_name))
-        playsound('/Users/jletienne/russell_westbot/soundboard/{}.mp3'.format(sound_name))
-    except:
-        await ctx.send('didn\'t work try this format...')
-        time.sleep(1.2)
-        await ctx.send('!addf [name] [url] [start_time] [length]')
-        time.sleep(1.3)
-        await ctx.send('for example... !addf jets 7sllUioMHJY 1:03 7')
+            await ctx.send('couldn\'t add gif...')
+            time.sleep(1.2)
+            await ctx.send('!add [name] [url]')
+            time.sleep(1.3)
+            await ctx.send('for example... !add jets https://giphy.com/gifs/moodman-TkqchactPDugBnOhWx')
+
+    else:
+        try:
+
+            sound_start = sound_info[3]
+            sound_volume = .12
+            try:
+                sound_length = min(int(sound_info[4]), 7)
+            except:
+                sound_length = 7
+            sound_effect.do_all(name=sound_name, url=sound_url, start=sound_start, length=sound_length, volume=sound_volume)
+            await ctx.send('nice! thanks {} for adding "!sound {}"'.format(ctx.author.name, sound_name))
+            playsound('./soundboard/{}.mp3'.format(sound_name))
+        except:
+            await ctx.send('didn\'t work try this format...')
+            time.sleep(1.2)
+            await ctx.send('!add [name] [url] [start_time] [length]')
+            time.sleep(1.3)
+            await ctx.send('for example... !add jets 7sllUioMHJY 1:03 7')
 
 
 
-# play a random gyfe from the triggerfyre obs intergration
+# play a random gif from the triggerfyre obs intergration
 @bot.command(name='gif')
 async def gif(ctx):
     gifs = ['bullet', 'fail',  'perfect', 'steph', 'check', 'jwill', 'marshawn', 'salsa', 'vince', 'davante', 'lavine', 'obj', 'shake', 'dougie', 'lebron', 'over', 'shimmy']
@@ -219,6 +237,8 @@ async def movies(ctx):
             await search_movie(ctx, film)
         except:
             await ctx.channel.send('I can\'t find that one right now!')
+
+
 
 
 if __name__ == "__main__":
