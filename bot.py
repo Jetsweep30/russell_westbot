@@ -2,6 +2,8 @@ import yaml
 from twitchio.ext import commands
 from playsound import playsound
 from convert import get_gif_from_giphy
+from show_gif import make_request
+
 
 import os.path
 
@@ -16,9 +18,7 @@ import time
 import random
 # create the bot account
 # pass parameters into the bot
-# set up movies
 
-# memoize hello
 
 #dak_prescbot is next
 #leBot_james is after
@@ -92,12 +92,18 @@ async def event_message(ctx):
     except:
         pass
 
-    #playsound if it exists
+    #play media if it exists
     if ctx.content[0] == '!':
         try:
-            await playsound('./soundboard/{}.mp3'.format(ctx.content[1:].lower()))
+            content = ctx.content[1:].lower()
+            if  content in [gif[:-4] for gif in os.listdir('./gifs') if gif[-4:] == '.gif']:
+                return await make_request(gif_pic = content)
+            else:
+                playsound('./soundboard/{}.mp3'.format(content))
         except:
             pass
+    else:
+        pass
 
 @bot.command(name='test')
 async def test(ctx):
@@ -129,7 +135,7 @@ async def add(ctx):
         try:
             print('nice')
             await get_gif_from_giphy(gif_url=sound_url, gif_name=sound_name)
-            await ctx.send('nice! thanks {} for adding "!sound {}"'.format(ctx.author.name, sound_name))
+            await ctx.send('success! thanks {} for adding "!gif {}"'.format(ctx.author.name, sound_name))
         except:
             await ctx.send('couldn\'t add gif...')
             time.sleep(1.2)

@@ -1,6 +1,7 @@
 
 import os
 #import sys
+import re
 
 
 def convert_track(start = 0, length = 7, output_name='default', output_volume=0.12):
@@ -22,8 +23,10 @@ ffmpeg -ss 45 -t 6 -i gxIEt3KEohk.mp3 gxIEt3KEohk.ogg
 
 async def get_gif_from_giphy(gif_url=None, gif_name=None):
 
-    gif_url = 'https://giphy.com/gifs/trash-100soft-intensifies-hpRlrdtjCuh1IVvfSv'
-    gif_id = gif_url.split('-')[-1]
+    #gif_url = 'https://giphy.com/gifs/trash-100soft-intensifies-hpRlrdtjCuh1IVvfSv'
+    gif_url = re.sub('/links', '', gif_url)
+    gif_id = re.split('-|/',gif_url)[-1] #.split('-')
+
 
     command = f"curl https://i.giphy.com/media/{gif_id}/giphy.gif --output gifs/{gif_name}.gif"
 
