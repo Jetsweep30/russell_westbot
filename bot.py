@@ -14,6 +14,8 @@ import requests
 import random
 import pandas as pd
 
+import re
+
 import sound_effect
 
 import time
@@ -135,7 +137,6 @@ async def github(ctx):
 @bot.command(name='add')
 async def add(ctx):
 
-    print('what up')
     sound_info = ctx.content.split(" ")
     sound_name = sound_info[1].lower()
 
@@ -145,12 +146,11 @@ async def add(ctx):
     else:'''
 
     sound_url = sound_info[2]
-    print('yes')
     #if it's a giphy download the gif
-    if 'giphy.com' in sound_url:
+    if re.search('giphy.com|gph.is', sound_url):
         try:
-            print('nice')
-            await get_gif_from_giphy(gif_url=sound_url, gif_name=sound_name)
+            gif_url = requests.get(sound_url).url
+            await get_gif_from_giphy(gif_url=gif_url, gif_name=sound_name)
             await ctx.send('success! thanks {} for adding "!gif {}"'.format(ctx.author.name, sound_name))
         except:
             await ctx.send('couldn\'t add gif...')
@@ -159,8 +159,8 @@ async def add(ctx):
             time.sleep(1.3)
             await ctx.send('for example... !add jets https://giphy.com/gifs/moodman-TkqchactPDugBnOhWx')
 
+
     else:
-        print('please')
         try:
 
             sound_start = sound_info[3]
@@ -211,6 +211,13 @@ async def alert(ctx):
             pass
     else:
         pass
+
+
+# play a random sound from the /soundboard
+@bot.command(name='w')
+async def w(ctx):
+    content = [sound[:-4] for sound in os.listdir('./gifs/w') if sound[-4:] == '.mp3']
+    await ctx.channel.send('!' + random.choice(content))
 
 # play a random sound from the /soundboard
 @bot.command(name='sound_list')

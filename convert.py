@@ -24,7 +24,7 @@ ffmpeg -ss 45 -t 6 -i gxIEt3KEohk.mp3 gxIEt3KEohk.ogg
 async def get_gif_from_giphy(gif_url=None, gif_name=None):
 
     #gif_url = 'https://giphy.com/gifs/trash-100soft-intensifies-hpRlrdtjCuh1IVvfSv'
-    gif_url = re.sub('/links', '', gif_url)
+    gif_url = re.sub('/links|/giphy.gif', '', gif_url)
     gif_id = re.split('-|/',gif_url)[-1] #.split('-')
 
 
