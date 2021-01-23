@@ -62,13 +62,15 @@ def memoize_greeting(f):
 
 @memoize_greeting
 def greeting(ctx):
-    greeting = 'hello {}'.format(ctx.author.name)
+    greeting = 'welcome back {}'.format(ctx.author.name)
     try:
         playsound('./soundboard/{}.mp3'.format(ctx.author.name.lower()))
+        time.sleep(4.3)
         return ctx.channel.send(greeting)
     except:
         playsound('./soundboard/quicksand.mp3')
-        return ctx.channel.send('welcome to the stream {}! you should !add a custom theme song'.format(ctx.author.name))
+        time.sleep(3.3)
+        return ctx.channel.send('welcome to the stream {}! feel free to !add a custom theme song'.format(ctx.author.name))
 
 
 
