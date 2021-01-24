@@ -216,9 +216,14 @@ async def alert(ctx):
 
 
 # play a random sound from the /soundboard
-@bot.command(name='w')
+@bot.command(name='w', aliases=['W', 'win', 'Win'])
 async def w(ctx):
     content = [sound[:-4] for sound in os.listdir('./gifs/w') if sound[-4:] == '.mp3']
+    await ctx.channel.send('!' + random.choice(content))
+
+@bot.command(name='fail')
+async def fail(ctx):
+    content = [sound[:-4] for sound in os.listdir('./gifs/fail') if sound[-4:] == '.txt']
     await ctx.channel.send('!' + random.choice(content))
 
 # play a random sound from the /soundboard
