@@ -3,6 +3,7 @@ from twitchio.ext import commands
 from playsound import playsound
 from convert import get_gif_from_giphy
 from show_gif import make_request
+from show_autotune import autotune_request
 import csv
 fieldnames = ['message_datetime', 'message_author', 'message_content']
 
@@ -21,6 +22,8 @@ import sound_effect
 import time
 
 import random
+
+live_sports_mode = True
 # create the bot account
 # pass parameters into the bot
 
@@ -68,6 +71,7 @@ def greeting(ctx):
         time.sleep(4.3)
         return ctx.channel.send(greeting)
     except:
+        #if not live_sports_mode:
         playsound('./soundboard/quicksand.mp3')
         time.sleep(3.3)
         return ctx.channel.send('welcome to the stream {}! feel free to !add a custom theme song'.format(ctx.author.name))
@@ -135,6 +139,12 @@ async def bandcamp(ctx):
 @bot.command(name='github')
 async def github(ctx):
     await ctx.send('https://github.com/jetsweep30/russell_westbot')
+
+@bot.command(name='autotune')
+async def autotune(ctx):
+    playsound('./soundboard/alerts/effect/autotune.mp3')
+    await autotune_request()
+    await ctx.send('autotune off don\'t do that that again')
 
 @bot.command(name='add')
 async def add(ctx):
