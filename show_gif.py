@@ -19,8 +19,14 @@ async def make_request(gif_pic):
     data = {'scene-name': 'Audio and Effects Scene', 'source': 'Gif', 'render': True}
     result = await ws.call('SetSceneItemRender', data)
 
+
     try:
-        playsound('./soundboard/{}.mp3'.format(gif_pic))
+        #don't play music during live sports mode
+        current_scene = await ws.call('GetCurrentScene')
+        if current_scene !=  'Live Sports Scene':
+            playsound('./soundboard/{}.mp3'.format(gif_pic))
+        else:
+            await asyncio.sleep(7)
     except:
         #pause seven seconds to display the gif
         await asyncio.sleep(7)

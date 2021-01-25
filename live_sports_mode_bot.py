@@ -23,7 +23,7 @@ import time
 
 import random
 
-not_live_sports_mode = True
+live_sports_mode = True
 # create the bot account
 # pass parameters into the bot
 
@@ -71,8 +71,8 @@ def greeting(ctx):
         time.sleep(4.3)
         return ctx.channel.send(greeting)
     except:
-        if not_live_sports_mode:
-            playsound('./soundboard/quicksand.mp3')
+        #if not live_sports_mode:
+        #playsound('./soundboard/quicksand.mp3')
         time.sleep(3.3)
         return ctx.channel.send('welcome to the stream {}! feel free to !add a custom theme song'.format(ctx.author.name))
 
@@ -116,14 +116,13 @@ async def event_message(ctx):
         pass
 
     #play media if it exists
-    if ctx.content[0] == '!':
+    if ctx.content[0] == '!' and ctx.author.name == 'jetsweep30':
         try:
             content = ctx.content[1:].lower()
             if  content in [gif[:-4] for gif in os.listdir('./gifs') if gif[-4:] == '.gif']:
                 await make_request(gif_pic = content)
             else:
-                if (not_live_sports_mode or ctx.author.name == 'jetsweep30'):
-                    playsound('./soundboard/{}.mp3'.format(content))
+                playsound('./soundboard/{}.mp3'.format(content))
         except:
             pass
     else:
@@ -184,7 +183,7 @@ async def add(ctx):
                 sound_length = 7
             sound_effect.do_all(name=sound_name, url=sound_url, start=sound_start, length=sound_length, volume=sound_volume)
             await ctx.send('nice! thanks {} for adding "!sound {}"'.format(ctx.author.name, sound_name))
-            if (not_live_sports_mode or ctx.author.name == 'jetsweep30'):
+            if ctx.author.name == 'jetsweep30':
                 playsound('./soundboard/{}.mp3'.format(sound_name))
         except:
             await ctx.send('didn\'t work try this format...')
@@ -198,14 +197,14 @@ async def add(ctx):
 # play a random gif from the triggerfyre obs intergration
 @bot.command(name='gif')
 async def gif(ctx):
-    if (not_live_sports_mode or ctx.author.name == 'jetsweep30'):
-        gifs = [gif[:-4] for gif in os.listdir('./gifs') if gif[-4:] == '.gif']
+    if ctx.author.name == 'jetsweep30':
+        gifs = ['bullet', 'fail',  'perfect', 'steph', 'check', 'jwill', 'marshawn', 'salsa', 'vince', 'davante', 'lavine', 'obj', 'shake', 'dougie', 'lebron', 'over', 'shimmy']
         await ctx.channel.send('!' + random.choice(gifs))
 
 # play a random sound from the /soundboard
 @bot.command(name='sound')
 async def sound(ctx):
-    if (not_live_sports_mode or ctx.author.name == 'jetsweep30'):
+    if ctx.author.name == 'jetsweep30':
         sounds = [sound[:-4] for sound in os.listdir('./soundboard') if sound[-4:] == '.mp3']
         await ctx.channel.send('!' + random.choice(sounds))
 
@@ -218,7 +217,7 @@ async def alert(ctx):
     alert_info = ctx.content.split(" ")
     alert_type = alert_info[1].lower()[:-1]
 
-    if ctx.author.name in mods and not_live_sports_mode:
+    if ctx.author.name == 'jetsweep30': #in mods:
         try:
             sounds = [sound[:-4] for sound in os.listdir('./soundboard/alerts/{}'.format(alert_type)) if sound[-4:] == '.mp3']
 
@@ -232,13 +231,13 @@ async def alert(ctx):
 # play a random sound from the /soundboard
 @bot.command(name='w', aliases=['W', 'win', 'Win'])
 async def w(ctx):
-    if (not_live_sports_mode or ctx.author.name == 'jetsweep30'):
+    if ctx.author.name == 'jetsweep30':
         content = [sound[:-4] for sound in os.listdir('./gifs/w') if sound[-4:] == '.mp3']
         await ctx.channel.send('!' + random.choice(content))
 
 @bot.command(name='fail')
 async def fail(ctx):
-    if (not_live_sports_mode or ctx.author.name == 'jetsweep30'):
+    if ctx.author.name == 'jetsweep30':
         content = [sound[:-4] for sound in os.listdir('./gifs/fail') if sound[-4:] == '.txt']
         await ctx.channel.send('!' + random.choice(content))
 
