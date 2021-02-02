@@ -47,9 +47,9 @@ bot = commands.Bot(
 )
 
 
-with open('media/chat_history.csv', 'a', newline='') as csvfile:
+'''with open('media/chat_history.csv', 'a', newline='') as csvfile:
     spamwriter = csv.writer(csvfile, delimiter=',',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)
+                            quotechar='|', quoting=csv.QUOTE_MINIMAL)'''
 
 mods = {'russell_westbot': 1, 'jetsweep30': 1, 'streamlabs': 1}
 
@@ -144,7 +144,13 @@ async def github(ctx):
 @bot.command(name='autotune')
 async def autotune(ctx):
     playsound('./soundboard/alerts/effect/autotune.mp3')
-    await autotune_request()
+    await autotune_request('AutoPitch')
+    await ctx.send('autotune off don\'t do that that again')
+
+@bot.command(name='bane')
+async def bane(ctx):
+    playsound('./soundboard/alerts/effect/bane.mp3')
+    await autotune_request('Bane')
     await ctx.send('autotune off don\'t do that that again')
 
 @bot.command(name='add')
@@ -230,6 +236,12 @@ async def alert(ctx):
 
 
 # play a random sound from the /soundboard
+@bot.command(name='youtube', aliases=['YT' , 'Youtube', 'YouTube', 'yt'])
+async def yt(ctx):
+    await ctx.channel.send('https://www.youtube.com/channel/UCNJ4U-k24e3qIZRLOSjJfFA')
+
+
+# play a random sound from the /soundboard
 @bot.command(name='w', aliases=['W', 'win', 'Win'])
 async def w(ctx):
     if (not_live_sports_mode or ctx.author.name == 'jetsweep30'):
@@ -242,6 +254,21 @@ async def fail(ctx):
         content = [sound[:-4] for sound in os.listdir('./gifs/fail') if sound[-4:] == '.txt']
         await ctx.channel.send('!' + random.choice(content))
 
+
+@bot.command(name='strikeout', aliases=['k', 'K'])
+async def strikeout(ctx):
+    if (not_live_sports_mode or ctx.author.name == 'jetsweep30'):
+        content = [sound[:-4] for sound in os.listdir('./gifs/strikeout') if sound[-4:] == '.txt']
+        await ctx.channel.send('!' + random.choice(content))
+
+
+
+@bot.command(name='homerun', aliases=['hr', 'HR'])
+async def homerun(ctx):
+    if (not_live_sports_mode or ctx.author.name == 'jetsweep30'):
+        content = [sound[:-4] for sound in os.listdir('./gifs/homerun') if sound[-4:] == '.txt']
+        await ctx.channel.send('!' + random.choice(content))
+
 # play a random sound from the /soundboard
 @bot.command(name='sound_list')
 async def sound_list(ctx):
@@ -252,8 +279,7 @@ async def sound_list(ctx):
 @bot.command(name='gif_list')
 async def gif_list(ctx):
     gifs = [gif[:-4] for gif in os.listdir('./gifs') if gif[-4:] == '.gif']
-    gifs.sort()
-    await ctx.channel.send(', '.join(gifs))
+    await ctx.channel.send("here's a sample of the collection... !" + ", !".join(random.sample(gifs,4)))
 
 
 def request_movie(ctx):

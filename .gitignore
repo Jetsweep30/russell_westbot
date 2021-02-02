@@ -131,4 +131,4 @@ dmypy.json
 config.yaml
 *.ipynb
 
-media/chat_history.csv
+media/chat_history*
