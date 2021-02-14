@@ -4,6 +4,7 @@ from playsound import playsound
 from convert import get_gif_from_giphy
 from show_gif import make_request
 from show_autotune import autotune_request
+from show_flip import flip_request
 import csv
 fieldnames = ['message_datetime', 'message_author', 'message_content']
 
@@ -36,6 +37,7 @@ token = yaml.safe_load(open('config.yaml'))['token']
 client_id = yaml.safe_load(open('config.yaml'))['client_id']
 client_secret = yaml.safe_load(open('config.yaml'))['client_secret']
 
+allow_new_intro = True
 
 bot = commands.Bot(
     # set up the bot
@@ -71,7 +73,7 @@ def greeting(ctx):
         time.sleep(4.3)
         return ctx.channel.send(greeting)
     except:
-        if not_live_sports_mode:
+        if not_live_sports_mode and allow_new_intro:
             playsound('./soundboard/quicksand.mp3')
         time.sleep(3.3)
         return ctx.channel.send('welcome to the stream {}! feel free to !add a custom theme song'.format(ctx.author.name))
@@ -145,19 +147,27 @@ async def github(ctx):
 async def autotune(ctx):
     playsound('./soundboard/alerts/effect/autotune.mp3')
     await autotune_request('AutoPitch')
-    await ctx.send('autotune off don\'t do that that again')
+    await ctx.send('autotune off, that was dope')
 
 @bot.command(name='bane')
 async def bane(ctx):
     playsound('./soundboard/alerts/effect/bane.mp3')
     await autotune_request('Bane')
-    await ctx.send('autotune off don\'t do that that again')
+    await ctx.send('autotune off that was fun')
+
+@bot.command(name='flip')
+async def flip(ctx):
+    await flip_request()
+    await ctx.send('alright eleven, get out of the upside down')
 
 @bot.command(name='add')
 async def add(ctx):
 
     sound_info = ctx.content.split(" ")
     sound_name = sound_info[1].lower()
+
+    if sound_name[0] == '@':
+        sound_name = sound_name[1:]
 
     #should people be able to overwrite sounds?
     '''if os.path.isfile('./soundboard/{}.mp3'.format(sound_name)): #1 == 0
@@ -170,7 +180,7 @@ async def add(ctx):
         try:
             gif_url = requests.get(sound_url).url
             await get_gif_from_giphy(gif_url=gif_url, gif_name=sound_name)
-            await ctx.send('success! thanks {} for adding "!gif {}"'.format(ctx.author.name, sound_name))
+            await ctx.send('success! thanks {} for adding gif "!{}"'.format(ctx.author.name, sound_name))
         except:
             await ctx.send('couldn\'t add gif...')
             time.sleep(1.2)
@@ -189,17 +199,22 @@ async def add(ctx):
             except:
                 sound_length = 7
             sound_effect.do_all(name=sound_name, url=sound_url, start=sound_start, length=sound_length, volume=sound_volume)
-            await ctx.send('nice! thanks {} for adding "!sound {}"'.format(ctx.author.name, sound_name))
+            await ctx.send('nice! thanks {} for adding the sound "!{}"'.format(ctx.author.name, sound_name))
             if (not_live_sports_mode or ctx.author.name == 'jetsweep30'):
                 playsound('./soundboard/{}.mp3'.format(sound_name))
         except:
-            await ctx.send('didn\'t work try this format...')
-            time.sleep(1.2)
-            await ctx.send('!add [name] [url] [start_time] [length]')
-            time.sleep(1.3)
-            await ctx.send('for example... !add jets 7sllUioMHJY 1:03 7')
+            pass
+            #await ctx.send('didn\'t work try this format...')
+            #time.sleep(1.2)
+            #await ctx.send('!add [name] [url] [start_time]')
+            #time.sleep(1.3)
+            #await ctx.send('for example... !add jets 7sllUioMHJY 1:03')
 
-
+@bot.command(name='help')
+async def help(ctx):
+    await ctx.send('!add [name] [url] [start_time]')
+    time.sleep(1.3)
+    await ctx.send(f'for example... !add {ctx.author.name} 7sllUioMHJY 1:03')
 
 # play a random gif from the triggerfyre obs intergration
 @bot.command(name='gif')
@@ -227,8 +242,14 @@ async def alert(ctx):
     if ctx.author.name in mods and not_live_sports_mode:
         try:
             sounds = [sound[:-4] for sound in os.listdir('./soundboard/alerts/{}'.format(alert_type)) if sound[-4:] == '.mp3']
-
             await playsound('./soundboard/alerts/{}/{}.mp3'.format(alert_type, random.choice(sounds)))
+
+            if alert_type == 'megaraid':
+                global allow_new_intro
+                allow_new_intro = False
+            else:
+                pass
+
         except:
             pass
     else:
