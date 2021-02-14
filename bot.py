@@ -160,6 +160,12 @@ async def flip(ctx):
     await flip_request()
     await ctx.send('alright eleven, get out of the upside down')
 
+@bot.command(name='friendly')
+async def friendly(ctx):
+    #playsound('./soundboard/alerts/effect/bane.mp3')
+    #await autotune_request('Bane')
+    await ctx.send('yeah let\'s play')
+
 @bot.command(name='add')
 async def add(ctx):
 
