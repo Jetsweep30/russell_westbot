@@ -164,7 +164,13 @@ async def flip(ctx):
 async def friendly(ctx):
     #playsound('./soundboard/alerts/effect/bane.mp3')
     #await autotune_request('Bane')
-    await ctx.send('yeah ctx.author.name let\'s play')
+
+    callouts = [gif[:-4] for gif in os.listdir('./soundboard/alerts/friendly') if gif[-4:] == '.txt']
+
+    playsound('./soundboard/{}.mp3'.format(random.choice(callouts)))
+    await ctx.send(f'yeah @{ctx.author.name} let\'s play. first game is three innings. My PSN is @Jetsweep30')
+
+
 
 @bot.command(name='add')
 async def add(ctx):
@@ -188,11 +194,14 @@ async def add(ctx):
             await get_gif_from_giphy(gif_url=gif_url, gif_name=sound_name)
             await ctx.send('success! thanks {} for adding gif "!{}"'.format(ctx.author.name, sound_name))
         except:
-            await ctx.send('couldn\'t add gif...')
-            time.sleep(1.2)
-            await ctx.send('!add [name] [url]')
-            time.sleep(1.3)
-            await ctx.send('for example... !add jets https://giphy.com/gifs/moodman-TkqchactPDugBnOhWx')
+            try:
+                await ctx.send('couldn\'t add gif...')
+                time.sleep(1.2)
+                await ctx.send('!add [name] [url]')
+                time.sleep(1.3)
+                await ctx.send('for example... !add jets https://giphy.com/gifs/moodman-TkqchactPDugBnOhWx')
+            except:
+                pass
 
 
     else:
@@ -303,8 +312,8 @@ async def sound_list(ctx):
     sounds.sort()
     await ctx.channel.send(', '.join(sounds))
 
-@bot.command(name='gif_list')
-async def gif_list(ctx):
+@bot.command(name='sample')
+async def sample(ctx):
     gifs = [gif[:-4] for gif in os.listdir('./gifs') if gif[-4:] == '.gif']
     await ctx.channel.send("here's a sample of the collection... !" + ", !".join(random.sample(gifs,4)))
 
