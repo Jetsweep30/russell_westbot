@@ -19,7 +19,7 @@ async def autotune_request(voice_effect='AutoPitch'):
 
 
 
-    await asyncio.sleep(24)
+    await asyncio.sleep(33)
 
 
     data = {'sourceName': 'Samson Q2U', 'filterName': 'AutoPitch', 'filterEnabled': False}

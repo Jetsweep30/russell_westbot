@@ -3,6 +3,7 @@ from twitchio.ext import commands
 from playsound import playsound
 from convert import get_gif_from_giphy
 from show_gif import make_request
+from show_bomb  import show_bomb
 from show_autotune import autotune_request
 from show_flip import flip_request
 import csv
@@ -70,13 +71,14 @@ def greeting(ctx):
     greeting = 'welcome back {}'.format(ctx.author.name)
     try:
         playsound('./soundboard/{}.mp3'.format(ctx.author.name.lower()))
-        time.sleep(4.3)
+        time.sleep(45)
         return ctx.channel.send(greeting)
     except:
         if not_live_sports_mode and allow_new_intro:
-            playsound('./soundboard/quicksand.mp3')
-        time.sleep(3.3)
-        return ctx.channel.send('welcome to the stream {}! feel free to !add a custom theme song'.format(ctx.author.name))
+            playsound('./soundboard/new_chat.mp3')
+            #pass
+        time.sleep(33)
+        return ctx.channel.send('welcome to the stream {}!'.format(ctx.author.name))
 
 
 
@@ -98,7 +100,7 @@ async def event_message(ctx):
 
 
     current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f'{current_datetime[-8:]} {ctx.author.name}: {ctx.content}\n')
+    print(f'{current_datetime[-8:]} {ctx.author.name}:\n{ctx.content}\n')
 
 
 
@@ -134,6 +136,10 @@ async def event_message(ctx):
 @bot.command(name='test')
 async def test(ctx):
     await ctx.send('test passed!')
+
+@bot.command(name='bomb', aliases=['bombs','bombs_away'])
+async def bomb(ctx):
+    await show_bomb()
 
 @bot.command(name='bandcamp')
 async def bandcamp(ctx):
@@ -210,7 +216,7 @@ async def add(ctx):
             sound_start = sound_info[3]
             sound_volume = .12
             try:
-                sound_length = min(int(sound_info[4]), 7)
+                sound_length = min(int(sound_info[4]), 30)
             except:
                 sound_length = 7
             sound_effect.do_all(name=sound_name, url=sound_url, start=sound_start, length=sound_length, volume=sound_volume)
@@ -245,6 +251,26 @@ async def sound(ctx):
         sounds = [sound[:-4] for sound in os.listdir('./soundboard') if sound[-4:] == '.mp3']
         await ctx.channel.send('!' + random.choice(sounds))
 
+@bot.command(name='sequence', aliases=['seq' , 'seq3', 'seq4', 'seq5'])
+async def sequence(ctx):
+    #command = '!seq    4'
+    #
+    slength = 4
+    if ctx.content[:9] == '!sequence':
+        slength = 9
+
+    try:
+        num_pitches = int(ctx.content[slength:])
+    except:
+        print('error')
+        num_pitches = 4
+
+    await ctx.channel.send("".join([str(random.choice(range(1,num_pitches+1))) for i in range(4)]) + " " + "".join([str(random.choice(range(1,num_pitches+1))) for i in range(4)]))
+    #sounds = [sound[:-4] for sound in os.listdir('./soundboard') if sound[-4:] == '.mp3']
+    #await ctx.channel.send('!' + random.choice(sounds))
+
+
+
 # fix the message so multiple things can happen
 '''async def play_the_sound(path):'''
 
@@ -265,6 +291,17 @@ async def alert(ctx):
             else:
                 pass
 
+            if alert_type == 'follow':
+                with open('media/new_follower.txt', 'w') as csvfile:
+                    writer = csv.DictWriter(csvfile, fieldnames=['new'])
+                    #follow_alert = '!alert follow: Thank you for following easy_gaming!'
+                    follower_name = alert_info[-1][:-1]
+                    writer.writerow({'new': f'new follower: {follower_name}'})
+            else:
+                pass
+
+
+
         except:
             pass
     else:
@@ -278,7 +315,7 @@ async def yt(ctx):
 
 
 # play a random sound from the /soundboard
-@bot.command(name='w', aliases=['W', 'win', 'Win'])
+@bot.command(name='w', aliases=['W', 'win', 'Win', 'gg', 'GG'])
 async def w(ctx):
     if (not_live_sports_mode or ctx.author.name == 'jetsweep30'):
         content = [sound[:-4] for sound in os.listdir('./gifs/w') if sound[-4:] == '.mp3']
@@ -297,7 +334,16 @@ async def strikeout(ctx):
         content = [sound[:-4] for sound in os.listdir('./gifs/strikeout') if sound[-4:] == '.txt']
         await ctx.channel.send('!' + random.choice(content))
 
+@bot.command(name='mj')
+async def mj(ctx):
+    if (not_live_sports_mode or ctx.author.name == 'jetsweep30'):
+        await ctx.channel.send('!mj' + str(random.choice(range(1,6))))
 
+
+@bot.command(name='rigged')
+async def rigged(ctx):
+    if (not_live_sports_mode or ctx.author.name == 'jetsweep30'):
+        await ctx.channel.send('!rigged' + str(random.choice(range(1,10))))
 
 @bot.command(name='homerun', aliases=['hr', 'HR'])
 async def homerun(ctx):

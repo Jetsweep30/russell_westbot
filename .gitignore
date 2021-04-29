@@ -132,3 +132,6 @@ config.yaml
 *.ipynb
 
 media/chat_history*
+media/new_follower*
+
+gifs_without_sounds.xlsx
