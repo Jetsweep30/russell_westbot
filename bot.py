@@ -20,12 +20,13 @@ import pandas as pd
 import re
 
 import sound_effect
+import submit_track
 
 import time
 
 import random
 
-not_live_sports_mode = True
+not_live_sports_mode = True #set to true normally
 # create the bot account
 # pass parameters into the bot
 
@@ -75,7 +76,12 @@ def greeting(ctx):
         return ctx.channel.send(greeting)
     except:
         if not_live_sports_mode and allow_new_intro:
-            playsound('./soundboard/new_chat.mp3')
+            try:
+                greetings = [greeting for greeting in os.listdir('./soundboard/alerts/new_chat') if gif[-4:] == '.wav']
+
+                playsound(f'./soundboard/{random.choice(greetings)}')
+            except:
+                playsound('./soundboard/new_chat.mp3')
             #pass
         time.sleep(33)
         return ctx.channel.send('welcome to the stream {}!'.format(ctx.author.name))
@@ -279,9 +285,10 @@ async def sequence(ctx):
 async def alert(ctx):
     alert_info = ctx.content.split(" ")
     alert_type = alert_info[1].lower()[:-1]
-
+    #print(alert_type)
     if ctx.author.name in mods and not_live_sports_mode:
         try:
+            #print('yeah')
             sounds = [sound[:-4] for sound in os.listdir('./soundboard/alerts/{}'.format(alert_type)) if sound[-4:] == '.mp3']
             await playsound('./soundboard/alerts/{}/{}.mp3'.format(alert_type, random.choice(sounds)))
 
@@ -290,8 +297,8 @@ async def alert(ctx):
                 allow_new_intro = False
             else:
                 pass
-
             if alert_type == 'follow':
+                make_request(gif_pic = content)
                 with open('media/new_follower.txt', 'w') as csvfile:
                     writer = csv.DictWriter(csvfile, fieldnames=['new'])
                     #follow_alert = '!alert follow: Thank you for following easy_gaming!'
@@ -303,6 +310,7 @@ async def alert(ctx):
 
 
         except:
+            #print('fail')
             pass
     else:
         pass
@@ -398,6 +406,29 @@ async def movies(ctx):
             await search_movie(ctx, film)
         except:
             await ctx.channel.send('I can\'t find that one right now!')
+
+
+
+
+@bot.command(name='submit', aliases=['feedback'])
+async def submit(ctx):
+
+    sound_info = ctx.content.split(" ")
+
+    if len(sound_info) < 2:
+        await ctx.channel.send('drop your track !submit [song-url]')
+
+    else:
+        sound_url = sound_info[1]
+        print(sound_url)
+        try:
+            print(ctx.author.name)
+            submit_track.get_submitted_track(name=ctx.author.name, url=sound_url)
+            await ctx.channel.send(f'thank you for sharing {ctx.author.name} you are added the queue!')
+        except:
+            await ctx.channel.send(f'well this is embarrasing {ctx.author.name}, can you try again?')
+
+
 
 
 
